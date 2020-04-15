@@ -34,11 +34,11 @@ def update_sample_manifest():
 			pprint.pprint(samples_dict) 
 
 def normalize_all_samples():
-for filename in os.listdir(path):
-	if filename.endswith(".wav"):
-		raw = AudioSegment.from_file(filename, "wav")
-		normalized = effects.normalize(raw)
-		normalized.export(os.path.splitext(filename)[0]+"_normalized.wav", format="wav") 
+	for filename in os.listdir(path):
+		if filename.endswith(".wav"):
+			raw = AudioSegment.from_file(filename, "wav")
+			normalized = effects.normalize(raw)
+			normalized.export(os.path.splitext(filename)[0]+"_normalized.wav", format="wav") 
 
 def is_sample_subset_of_scale(scale, sample): 
     i = 0
@@ -64,14 +64,14 @@ def transpose_sample(sample, semitones):
 	new_sample_rate = int(sound.frame_rate * 2**((semitones)/12) ) 
 	transposed_sound = sound._spawn(sound.raw_data, overrides={'frame_rate': new_sample_rate}) 
 	transposed_sound = lopitch_sound.set_frame_rate(44100) 
-	transposed_sound.export(os.path.splitext(filename)[0]+"_"+semitones+'.wav', format='wav') 
+	transposed_sound.export(os.path.splitext(filename)[0]+"_"+str(semitones)+'.wav', format='wav') 
 
-def file_sample_in_correct_folder():
-	# compare every sample to every scale with is_sample_subset_of_scale()
-	for sample, scale in itertools.combinations(????):
-	        if is_sample_subset_of_scale(sample, scale) == True:
-	        	# if true, 
-	    return scales_dict
+# def file_sample_in_correct_folder():
+# 	# compare every sample to every scale with is_sample_subset_of_scale()
+# 	for sample, scale in itertools.combinations(????):
+# 	        if is_sample_subset_of_scale(sample, scale) == True:
+# 	        	# if true, 
+# 	    return scales_dict
 
 
 
@@ -88,11 +88,11 @@ if __name__ == "__main__":
 	print ("The current working directory is %s" % path)
 
 	#load scale json
-	with open('/Users/NathanAT/sample_laboratory/scale_data.json') as f: 
+	with open(path+'/scales_data.json') as f: 
 		scales_dict = json.load(f) 
 
 	#create a folder for each scale
-	for scale in scale_dict:
+	for scale in scales_dict:
 		try: 
 			os.mkdir(scale) 
 		except OSError: 
@@ -103,6 +103,6 @@ if __name__ == "__main__":
 
 	#load sample json "manifest"
 
-	with open('/Users/NathanAT/sample_laboratory/samples.json') as f: 
+	with open(path+'/samples_data.json') as f: 
 		samples_dict = json.load(f) 
 
