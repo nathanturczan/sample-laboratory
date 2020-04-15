@@ -23,7 +23,7 @@ def note_name_to_number(note_name):
 	    raise ValueError('Improper note format: {}'.format(note_name)) 
 
 	# Convert from the extrated ints to a full note number 
-	return pitch_map[pitch] + offset 
+	return (pitch_map[pitch] + offset) % 12
 
 def update_sample_manifest():
 	# this function updates samples_data.json file in your main directory
