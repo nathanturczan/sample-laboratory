@@ -1,30 +1,8 @@
-from pydub import AudioSegment, effects  
-import os
-import json
+###############################################################################
+# sample_clerk
+# a script that organizes audio samples into scale folders
+# Nathan Turczan
 
-# detect the current working directory and print it
-path = os.getcwd()
-print ("The current working directory is %s" % path)
-
-
-#load scale json
-with open('/Users/NathanAT/sample_laboratory/scale_data.json') as f: 
-	scales_dict = json.load(f) 
-
-#create a folder for each scale
-for scale in scale_dict:
-	try: 
-		os.mkdir(scale) 
-	except OSError: 
-		print ("Creation of the directory %s failed" % scale) 
-	else: 
-		print("Successfully created the directory %s " % scale) 
-
-
-#load sample json "manifest"
-
-with open('/Users/NathanAT/sample_laboratory/samples.json') as f: 
-	samples_dict = json.load(f) 
 
 # function for mapping note names to numbers [a, bf, c] = [9, 10, 0]
 # this function taken from pretty midi and modified, removing the octave capture group
@@ -47,11 +25,12 @@ def note_name_to_number(note_name):
 	# Convert from the extrated ints to a full note number 
 	return pitch_map[pitch] + offset 
 
-def update_manifest():
-	# this function updates the sample json manifest
+def update_sample_manifest():
+	# this function updates samples_data.json file in your main directory
 	for chord in samples_dict:
 		for note in samples_dict[chord]["note_names"]: 
 			samples_dict[chord]["pitch_classes"].append(note_name_to_number(note)) 
+			json.dumps()
 			pprint.pprint(samples_dict) 
 
 def normalize_all_samples():
@@ -85,7 +64,45 @@ def transpose_sample(sample, semitones):
 	new_sample_rate = int(sound.frame_rate * 2**((semitones)/12) ) 
 	transposed_sound = sound._spawn(sound.raw_data, overrides={'frame_rate': new_sample_rate}) 
 	transposed_sound = lopitch_sound.set_frame_rate(44100) 
-	transposed_sound.export('ko.wav', format='wav') 
+	transposed_sound.export(os.path.splitext(filename)[0]+"_"+semitones+'.wav', format='wav') 
 
-def file_sample_in_correct_folder()
+def file_sample_in_correct_folder():
+	# compare every sample to every scale with is_sample_subset_of_scale()
+	for sample, scale in itertools.combinations(????):
+	        if is_sample_subset_of_scale(sample, scale) == True:
+	        	# if true, 
+	    return scales_dict
+
+
+
+
+if __name__ == "__main__":
+
+	# import libraries for audio manipulation, directory creation, and json read/write
+	from pydub import AudioSegment, effects  
+	import os
+	import json
+
+	# detect the current working directory and print it: "something/something/something/sample_laboratory"
+	path = os.getcwd()
+	print ("The current working directory is %s" % path)
+
+	#load scale json
+	with open('/Users/NathanAT/sample_laboratory/scale_data.json') as f: 
+		scales_dict = json.load(f) 
+
+	#create a folder for each scale
+	for scale in scale_dict:
+		try: 
+			os.mkdir(scale) 
+		except OSError: 
+			print ("Creation of the directory %s failed" % scale) 
+		else: 
+			print("Successfully created the directory %s " % scale) 
+
+
+	#load sample json "manifest"
+
+	with open('/Users/NathanAT/sample_laboratory/samples.json') as f: 
+		samples_dict = json.load(f) 
 
