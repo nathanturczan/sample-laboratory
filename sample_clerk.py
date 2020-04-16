@@ -64,7 +64,17 @@ def transpose_sample(sample, semitones):
 	new_sample_rate = int(sound.frame_rate * 2**((semitones)/12) ) 
 	transposed_sound = sound._spawn(sound.raw_data, overrides={'frame_rate': new_sample_rate}) 
 	transposed_sound = transposed_sound.set_frame_rate(44100) 
-	transposed_sound.export(os.path.splitext(sample)[0]+"_"+str(semitones)+'.wav', format='wav') 
+	transposed_sound.export(os.path.splitext(sample)[0]+str(semitones)+'.wav', format='wav') 
+	return os.path.splitext(sample)[0]+"_"+str(semitones)+'.wav'
+
+
+def transpose_pitch_classes(pitch_classes, semitones):
+	transposed_pitch_classes = []
+	for note in pitch_classes:
+		note = (note+semitones) % 12
+		transposed_pitch_classes.append(note)
+	return transposed_pitch_classes
+
 
 # def transpose_all_samples():
 # 	for filename in os.listdir(path+"/samples"):
@@ -79,7 +89,7 @@ def transpose_sample(sample, semitones):
 # 	    return scales_dict
 
 
-
+# symbolic link? python os module, for ecom=nomical use of disk space
 
 if __name__ == "__main__":
 
@@ -87,6 +97,7 @@ if __name__ == "__main__":
 	from pydub import AudioSegment, effects  
 	import os
 	import json
+	import shutil
 
 	# detect the current working directory and print it: "something/something/something/sample_laboratory"
 	path = os.getcwd()
@@ -96,18 +107,41 @@ if __name__ == "__main__":
 	with open(path+'/scales_data.json') as f: 
 		scales_dict = json.load(f) 
 
+
 	#create a folder for each scale
 	for scale in scales_dict:
-		try: 
-			os.mkdir(scale) 
-		except OSError: 
-			print ("Creation of the directory %s failed" % scale) 
-		else: 
-			print("Successfully created the directory %s " % scale) 
+		os.makedirs("scale/"+scale, exist_ok=True)
+
 
 
 	#load sample json "manifest"
 
 	with open(path+'/samples_data.json') as f: 
 		samples_dict = json.load(f) 
+
+	for scale_name in scales_dict:
+		for sample_name in samples_dict:
+			sample_path = path+"/samples/"+sample_name+".wav"
+			if is_sample_subset_of_scale(scales_dict[scale_name]['pitch_classes'], samples_dict[sample_name]['pitch_classes']):
+				print("saving ", sample_path, "in ", "scale/"+scale_name)
+				shutil.copyfile(sample_path, "scale/"+scale_name+"/"+sample_name+".wav")
+			transposed_sample = transpose_sample(sample_path, -1)
+			transposed_pitch_classes = transpose_pitch_classes(samples_dict[sample_name]['pitch_classes'], -1)
+			if is_sample_subset_of_scale(scales_dict[scale_name]['pitch_classes'], transposed_pitch_classes):
+				print("saving ", transposed_sample, "in ", "scale/"+scale_name)
+				shutil.copyfile(transposed_sample, "scale/"+scale_name+"/"+sample_name+"-1"+".wav")
+
+
+
+	# for scale in scales_dict:
+	# 	for sample in samples_dict:
+	# 		if is_sample_subset_of_scale() == true
+	# 			copy to scale directory
+	#
+	#		transposed sample = sample transposed up by 1
+	#
+
+
+
+
 
