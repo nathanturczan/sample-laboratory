@@ -65,7 +65,7 @@ def transpose_sample(sample, semitones):
 	transposed_sound = sound._spawn(sound.raw_data, overrides={'frame_rate': new_sample_rate}) 
 	transposed_sound = transposed_sound.set_frame_rate(44100) 
 	transposed_sound.export(os.path.splitext(sample)[0]+str(semitones)+'.wav', format='wav') 
-	return os.path.splitext(sample)[0]+"_"+str(semitones)+'.wav'
+	return os.path.splitext(sample)[0]+str(semitones)+'.wav'
 
 
 def transpose_pitch_classes(pitch_classes, semitones):
