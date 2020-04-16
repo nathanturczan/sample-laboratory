@@ -26,7 +26,7 @@ def note_name_to_number(note_name):
 	return (pitch_map[pitch] + offset) % 12
 
 def update_sample_manifest():
-	# this function updates samples_data.json file in your main directory
+	# this function updates samples_data.json in your main directory
 	for chord in samples_dict:
 		for note in samples_dict[chord]["note_names"]: 
 			samples_dict[chord]["pitch_classes"].append(note_name_to_number(note)) 
@@ -63,8 +63,13 @@ def transpose_sample(sample, semitones):
 	sound = AudioSegment.from_file(sample, format="wav") 
 	new_sample_rate = int(sound.frame_rate * 2**((semitones)/12) ) 
 	transposed_sound = sound._spawn(sound.raw_data, overrides={'frame_rate': new_sample_rate}) 
-	transposed_sound = lopitch_sound.set_frame_rate(44100) 
-	transposed_sound.export(os.path.splitext(filename)[0]+"_"+str(semitones)+'.wav', format='wav') 
+	transposed_sound = transposed_sound.set_frame_rate(44100) 
+	transposed_sound.export(os.path.splitext(sample)[0]+"_"+str(semitones)+'.wav', format='wav') 
+
+# def transpose_all_samples():
+# 	for filename in os.listdir(path+"/samples"):
+# 		if filename.endswith(".wav"):
+# 			transpose_sample(str(filename), +1) 
 
 # def file_sample_in_correct_folder():
 # 	# compare every sample to every scale with is_sample_subset_of_scale()
