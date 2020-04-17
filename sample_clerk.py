@@ -76,21 +76,6 @@ def transpose_pitch_classes(pitch_classes, semitones):
 	return transposed_pitch_classes
 
 
-# def transpose_all_samples():
-# 	for filename in os.listdir(path+"/samples"):
-# 		if filename.endswith(".wav"):
-# 			transpose_sample(str(filename), +1) 
-
-# def file_sample_in_correct_folder():
-# 	# compare every sample to every scale with is_sample_subset_of_scale()
-# 	for sample, scale in itertools.combinations(????):
-# 	        if is_sample_subset_of_scale(sample, scale) == True:
-# 	        	# if true, 
-# 	    return scales_dict
-
-
-# symbolic link? python os module, for ecom=nomical use of disk space
-
 if __name__ == "__main__":
 
 	# import libraries for audio manipulation, directory creation, and json read/write
@@ -98,12 +83,13 @@ if __name__ == "__main__":
 	import os
 	import json
 	import shutil
+	import re
 
 	# detect the current working directory and print it: "something/something/something/sample_laboratory"
 	path = os.getcwd()
 	print ("The current working directory is %s" % path)
 
-	#l oad scale json
+	# load scale json
 	with open(path+'/scales_data.json') as f: 
 		scales_dict = json.load(f) 
 
@@ -112,7 +98,6 @@ if __name__ == "__main__":
 		os.makedirs("scale/"+scale, exist_ok=True)
 
 	# load sample json "manifest"
-
 	with open(path+'/samples_data.json') as f: 
 		samples_dict = json.load(f) 
 
@@ -123,12 +108,14 @@ if __name__ == "__main__":
 			sample_path = path+"/samples/"+sample_name+".wav"
 			if is_sample_subset_of_scale(scales_dict[scale_name]['pitch_classes'], samples_dict[sample_name]['pitch_classes']):
 				print("saving ", sample_path, "in ", "scale/"+scale_name)
+				# symbolic link? python os module, more economical use of disk space
 				shutil.copyfile(sample_path, "scale/"+scale_name+"/"+sample_name+".wav")
 			for transposition in (-2, -1, +1, +2):
 				transposed_sample = transpose_sample(sample_path, transposition)
 				transposed_pitch_classes = transpose_pitch_classes(samples_dict[sample_name]['pitch_classes'], transposition)
 				if is_sample_subset_of_scale(scales_dict[scale_name]['pitch_classes'], transposed_pitch_classes):
 					print("saving ", transposed_sample, "in ", "scale/"+scale_name)
+					# symbolic link? python os module, more economical use of disk space
 					shutil.copyfile(transposed_sample, "scale/"+scale_name+"/"+sample_name+"_transposed_by"+str(transposition)+".wav")
 
 
