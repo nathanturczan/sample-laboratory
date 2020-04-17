@@ -95,7 +95,7 @@ if __name__ == "__main__":
 
 	# create a folder for each scale
 	for scale in scales_dict:
-		os.makedirs("scale/"+scale, exist_ok=True)
+		os.makedirs("scales_dir/"+scale, exist_ok=True)
 
 	# load sample json "manifest"
 	with open(path+'/samples_data.json') as f: 
@@ -106,16 +106,17 @@ if __name__ == "__main__":
 	for scale_name in scales_dict:
 		for sample_name in samples_dict:
 			sample_path = path+"/samples/"+sample_name+".wav"
+			# if the sample is a subset of the scale
 			if is_sample_subset_of_scale(scales_dict[scale_name]['pitch_classes'], samples_dict[sample_name]['pitch_classes']):
-				print("saving ", sample_path, "in ", "scale/"+scale_name)
-				# symbolic link? python os module, more economical use of disk space
-				shutil.copyfile(sample_path, "scale/"+scale_name+"/"+sample_name+".wav")
+				print("creating a shortcut to ", sample_path, "in ", "scale/"+scale_name)
+				# create a shortcut / alias / symbolic link to that sample in the scale folder
+				os.symlink(sample_path, "scale/"+scale_name+"/"+sample_name+".wav")
 			for transposition in (-2, -1, +1, +2):
 				transposed_sample = transpose_sample(sample_path, transposition)
 				transposed_pitch_classes = transpose_pitch_classes(samples_dict[sample_name]['pitch_classes'], transposition)
 				if is_sample_subset_of_scale(scales_dict[scale_name]['pitch_classes'], transposed_pitch_classes):
-					print("saving ", transposed_sample, "in ", "scale/"+scale_name)
-					# symbolic link? python os module, more economical use of disk space
-					shutil.copyfile(transposed_sample, "scale/"+scale_name+"/"+sample_name+"_transposed_by"+str(transposition)+".wav")
+					print("creating a shortcut to ", transposed_sample, "in ", "scale/"+scale_name)
+					# create a shortcut / alias / symbolic link to that sample in the scale folder
+					os.symlink(transposed_sample, "scale/"+scale_name+"/"+sample_name+"_transposed_by"+str(transposition)+".wav")
 
 
