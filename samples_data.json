@@ -4,11 +4,198 @@
       "e",
       "gs",
       "b"
-    ],
-    "pitch_classes": [
-      4,
-      8,
-      11
+    ]
+  },
+  "bell_1": {
+    "note_names": [
+      "gs",
+      "b"
+    ]
+  },
+  "berio_cello_1": {
+    "note_names": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ]
+  },
+  "berio_cello_2": {
+    "note_names": [
+      "a",
+      "b",
+      "c",
+      "ds",
+      "e"
+    ]
+  },
+  "berio_cello_3": {
+    "note_names": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  "berio_cello_4": {
+    "note_names": [
+      "ds",
+      "f",
+      "a"
+    ]
+  },
+  "berio_cello_5": {
+    "note_names": [
+      "d",
+      "gs",
+      "c",
+      "b",
+      "e",
+      "f"
+    ]
+  },
+  "berio_cello_6": {
+    "note_names": [
+      "gs",
+      "c",
+      "d",
+      "ds",
+      "b"
+    ]
+  },
+  "berio_cello_7": {
+    "note_names": [
+      "A",
+      "G",
+      "D",
+      "C",
+      "B"
+    ]
+  },
+  "berio_clarinet_1": {
+    "note_names": [
+      "c",
+      "d",
+      "ds",
+      "f"
+    ]
+  },
+  "berio_clarinet_3": {
+    "note_names": [
+      "c",
+      "d",
+      "ds",
+      "f",
+      "fs"
+    ]
+  },
+  "berio_clarinet_4": {
+    "note_names": [
+      "e",
+      "a",
+      "c",
+      "d"
+    ]
+  },
+  "berio_flute_1": {
+    "note_names": [
+      "d",
+      "cs"
+    ]
+  },
+  "berio_flute_2": {
+    "note_names": [
+      "b",
+      "cs"
+    ]
+  },
+  "berio_flute_3": {
+    "note_names": [
+      "E",
+      "Fs",
+      "C"
+    ]
+  },
+  "berio_flute_4": {
+    "note_names": [
+      "c",
+      "cs"
+    ]
+  },
+  "berio_flute_6": {
+    "note_names": [
+      "bf",
+      "cs",
+      "d",
+      "b"
+    ]
+  },
+  "berio_guitar_1": {
+    "note_names": [
+      "e",
+      "ds",
+      "a",
+      "b"
+    ]
+  },
+  "berio_guitar_3": {
+    "note_names": [
+      "c",
+      "d",
+      "fs",
+      "g",
+      "b",
+      "ef"
+    ]
+  },
+  "berio_guitar_4": {
+    "note_names": [
+      "c",
+      "e",
+      "fs",
+      "d",
+      "e"
+    ]
+  },
+  "berio_guitar_6": {
+    "note_names": [
+      "g",
+      "c",
+      "fs",
+      "b",
+      "d"
+    ]
+  },
+  "berio_guitar_7": {
+    "note_names": [
+      "a",
+      "d",
+      "g",
+      "b",
+      "e"
+    ]
+  },
+  "berio_guitar_8": {
+    "note_names": [
+      "C",
+      "E",
+      "Fs",
+      "G",
+      "D",
+      "E"
+    ]
+  },
+  "berio_harp_1": {
+    "note_names": [
+      "fs",
+      "gs"
+    ]
+  },
+  "berio_trumpet_2": {
+    "note_names": [
+      "d",
+      "g",
+      "b"
     ]
   },
   "bozza_1": {
@@ -20,15 +207,6 @@
       "bf",
       "cs",
       "d"
-    ],
-    "pitch_classes": [
-      4,
-      6,
-      7,
-      9,
-      10,
-      1,
-      2
     ]
   },
   "corelli_1": {
@@ -38,13 +216,6 @@
       "bf",
       "f",
       "af"
-    ],
-    "pitch_classes": [
-      3,
-      7,
-      10,
-      5,
-      8
     ]
   },
   "corelli_2": {
@@ -54,13 +225,6 @@
       "bf",
       "af",
       "c"
-    ],
-    "pitch_classes": [
-      3,
-      7,
-      10,
-      8,
-      0
     ]
   },
   "corelli_3": {
@@ -70,13 +234,6 @@
       "bf",
       "f",
       "af"
-    ],
-    "pitch_classes": [
-      3,
-      7,
-      10,
-      5,
-      8
     ]
   },
   "corelli_4": {
@@ -86,13 +243,6 @@
       "f",
       "c",
       "ef"
-    ],
-    "pitch_classes": [
-      10,
-      2,
-      5,
-      0,
-      3
     ]
   },
   "corelli_5": {
@@ -102,13 +252,6 @@
       "f",
       "g",
       "ef"
-    ],
-    "pitch_classes": [
-      10,
-      2,
-      5,
-      7,
-      3
     ]
   },
   "corelli_6": {
@@ -118,13 +261,6 @@
       "f",
       "c",
       "ef"
-    ],
-    "pitch_classes": [
-      10,
-      2,
-      5,
-      0,
-      3
     ]
   },
   "corelli_7": {
@@ -132,11 +268,6 @@
       "c",
       "ef",
       "g"
-    ],
-    "pitch_classes": [
-      0,
-      3,
-      7
     ]
   },
   "corelli_8": {
@@ -146,13 +277,6 @@
       "g",
       "af",
       "f"
-    ],
-    "pitch_classes": [
-      0,
-      3,
-      7,
-      8,
-      5
     ]
   },
   "corelli_9": {
@@ -163,14 +287,255 @@
       "g",
       "af",
       "c"
-    ],
-    "pitch_classes": [
-      11,
-      2,
-      5,
-      7,
-      8,
-      0
+    ]
+  },
+  "dj_1": {
+    "note_names": [
+      "C#",
+      "F#",
+      "G#"
+    ]
+  },
+  "eller_1": {
+    "note_names": [
+      "d",
+      "a",
+      "fs",
+      "b",
+      "e",
+      "g"
+    ]
+  },
+  "eller_2": {
+    "note_names": [
+      "d",
+      "a",
+      "fs",
+      "b",
+      "e",
+      "g",
+      "c"
+    ]
+  },
+  "eller_3": {
+    "note_names": [
+      "d",
+      "a",
+      "f",
+      "b",
+      "e",
+      "g"
+    ]
+  },
+  "eller_4": {
+    "note_names": [
+      "d",
+      "a",
+      "f",
+      "b",
+      "e",
+      "g",
+      "c"
+    ]
+  },
+  "eno_1": {
+    "note_names": [
+      "a",
+      "c",
+      "e"
+    ]
+  },
+  "eno_10": {
+    "note_names": [
+      "d",
+      "fs",
+      "a"
+    ]
+  },
+  "eno_11": {
+    "note_names": [
+      "g",
+      "b",
+      "d"
+    ]
+  },
+  "eno_12": {
+    "note_names": [
+      "c",
+      "e",
+      "g"
+    ]
+  },
+  "eno_13": {
+    "note_names": [
+      "e",
+      "g",
+      "b"
+    ]
+  },
+  "eno_14": {
+    "note_names": [
+      "c",
+      "e",
+      "g"
+    ]
+  },
+  "eno_15": {
+    "note_names": [
+      "d",
+      "fs",
+      "a"
+    ]
+  },
+  "eno_16": {
+    "note_names": [
+      "g",
+      "b",
+      "d"
+    ]
+  },
+  "eno_2": {
+    "note_names": [
+      "a",
+      "d",
+      "fs"
+    ]
+  },
+  "eno_3": {
+    "note_names": [
+      "c",
+      "d",
+      "e",
+      "g"
+    ]
+  },
+  "eno_4": {
+    "note_names": [
+      "b",
+      "e",
+      "g"
+    ]
+  },
+  "eno_5": {
+    "note_names": [
+      "g",
+      "c",
+      "e"
+    ]
+  },
+  "eno_6": {
+    "note_names": [
+      "d",
+      "fs",
+      "a",
+      "cs"
+    ]
+  },
+  "eno_7": {
+    "note_names": [
+      "g",
+      "b",
+      "d"
+    ]
+  },
+  "eno_9": {
+    "note_names": [
+      "a",
+      "c",
+      "e"
+    ]
+  },
+  "grieg_1": {
+    "note_names": [
+      "c",
+      "e",
+      "g",
+      "a",
+      "b"
+    ]
+  },
+  "grieg_2": {
+    "note_names": [
+      "e",
+      "g",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  "grieg_3": {
+    "note_names": [
+      "b",
+      "e"
+    ]
+  },
+  "grieg_4": {
+    "note_names": [
+      "e",
+      "gs",
+      "b"
+    ]
+  },
+  "grieg_5": {
+    "note_names": [
+      "a",
+      "b",
+      "c",
+      "e",
+      "f",
+      "g"
+    ]
+  },
+  "grieg_6": {
+    "note_names": [
+      "b",
+      "e"
+    ]
+  },
+  "grieg_7": {
+    "note_names": [
+      "e",
+      "g",
+      "b"
+    ]
+  },
+  "hohvaness_1": {
+    "note_names": [
+      "c",
+      "g",
+      "df",
+      "af",
+      "e",
+      "b"
+    ]
+  },
+  "honegger_1": {
+    "note_names": [
+      "c",
+      "fs",
+      "b",
+      "e",
+      "d"
+    ]
+  },
+  "honegger_2": {
+    "note_names": [
+      "g",
+      "a",
+      "b",
+      "d",
+      "e",
+      "fs"
+    ]
+  },
+  "honegger_3": {
+    "note_names": [
+      "c",
+      "fs",
+      "b",
+      "e",
+      "d",
+      "c"
     ]
   },
   "liszt_1": {
@@ -180,13 +545,31 @@
       "a",
       "c",
       "gf"
-    ],
-    "pitch_classes": [
-      3,
-      10,
-      9,
-      0,
-      6
+    ]
+  },
+  "lyapunov_1": {
+    "note_names": [
+      "gs",
+      "as",
+      "b",
+      "cs",
+      "ds"
+    ]
+  },
+  "lyapunov_2": {
+    "note_names": [
+      "E",
+      "G#",
+      "B",
+      "D#"
+    ]
+  },
+  "lyapunov_3": {
+    "note_names": [
+      "c#",
+      "E",
+      "G#",
+      "B"
     ]
   },
   "moz_1": {
@@ -194,11 +577,6 @@
       "ef",
       "g",
       "bf"
-    ],
-    "pitch_classes": [
-      3,
-      7,
-      10
     ]
   },
   "moz_2": {
@@ -206,11 +584,6 @@
       "c",
       "ef",
       "g"
-    ],
-    "pitch_classes": [
-      0,
-      3,
-      7
     ]
   },
   "moz_3": {
@@ -218,11 +591,6 @@
       "g",
       "bf",
       "ef"
-    ],
-    "pitch_classes": [
-      7,
-      10,
-      3
     ]
   },
   "moz_4": {
@@ -230,11 +598,6 @@
       "bf",
       "d",
       "f"
-    ],
-    "pitch_classes": [
-      10,
-      2,
-      5
     ]
   },
   "moz_5": {
@@ -242,11 +605,6 @@
       "bf",
       "d",
       "f"
-    ],
-    "pitch_classes": [
-      10,
-      2,
-      5
     ]
   },
   "moz_6": {
@@ -254,27 +612,22 @@
       "bf",
       "d",
       "f"
-    ],
-    "pitch_classes": [
-      10,
-      2,
-      5
     ]
   },
-  "whitacre_1": {
+  "moz_7": {
     "note_names": [
+      "g",
+      "bf",
       "cs",
-      "e",
-      "gs",
-      "ds",
-      "b"
-    ],
-    "pitch_classes": [
-      1,
-      4,
-      8,
-      3,
-      11
+      "e"
+    ]
+  },
+  "moz_8": {
+    "note_names": [
+      "a",
+      "b",
+      "cs",
+      "d"
     ]
   },
   "poulenc_1": {
@@ -283,12 +636,6 @@
       "bf",
       "ef",
       "fs"
-    ],
-    "pitch_classes": [
-      2,
-      10,
-      3,
-      6
     ]
   },
   "poulenc_2": {
@@ -297,12 +644,6 @@
       "af",
       "cf",
       "g"
-    ],
-    "pitch_classes": [
-      3,
-      8,
-      11,
-      7
     ]
   },
   "poulenc_3": {
@@ -313,14 +654,6 @@
       "d",
       "e",
       "fs"
-    ],
-    "pitch_classes": [
-      7,
-      9,
-      11,
-      2,
-      4,
-      6
     ]
   },
   "poulenc_4": {
@@ -332,15 +665,6 @@
       "c",
       "e",
       "a"
-    ],
-    "pitch_classes": [
-      7,
-      5,
-      2,
-      11,
-      0,
-      4,
-      9
     ]
   },
   "poulenc_5": {
@@ -350,13 +674,6 @@
       "fs",
       "e",
       "d"
-    ],
-    "pitch_classes": [
-      7,
-      9,
-      6,
-      4,
-      2
     ]
   },
   "poulenc_6": {
@@ -366,13 +683,6 @@
       "fs",
       "g",
       "e"
-    ],
-    "pitch_classes": [
-      0,
-      2,
-      6,
-      7,
-      4
     ]
   },
   "poulenc_7": {
@@ -381,12 +691,6 @@
       "c",
       "d",
       "b"
-    ],
-    "pitch_classes": [
-      7,
-      0,
-      2,
-      11
     ]
   },
   "poulenc_8": {
@@ -394,81 +698,6 @@
       "g",
       "bf",
       "f"
-    ],
-    "pitch_classes": [
-      7,
-      10,
-      5
-    ]
-  },
-  "hohvaness_1": {
-    "note_names": [
-      "c",
-      "g",
-      "df",
-      "af",
-      "e",
-      "b"
-    ],
-    "pitch_classes": [
-      0,
-      7,
-      1,
-      8,
-      4,
-      11
-    ]
-  },
-  "honegger_1": {
-    "note_names": [
-      "c",
-      "fs",
-      "b",
-      "e",
-      "d"
-    ],
-    "pitch_classes": [
-      0,
-      6,
-      11,
-      4,
-      2
-    ]
-  },
-  "honegger_2": {
-    "note_names": [
-      "g",
-      "a",
-      "b",
-      "d",
-      "e",
-      "fs"
-    ],
-    "pitch_classes": [
-      7,
-      9,
-      11,
-      2,
-      4,
-      6
-    ]
-  },
-  "honegger_3": {
-    "note_names": [
-      "c",
-      "fs",
-      "b",
-      "e",
-      "d",
-      "c"
-    ],
-    "pitch_classes": [
-      0,
-      6,
-      11,
-      4,
-      2,
-      0
     ]
   },
   "ravel_1": {
@@ -476,133 +705,39 @@
       "f",
       "a",
       "c"
-    ],
-    "pitch_classes": [
-      5,
-      9,
-      0
+    ]
+  },
+  "rimsky_1": {
+    "note_names": [
+      "d",
+      "e",
+      "f",
+      "g",
+      "a"
+    ]
+  },
+  "rimsky_2": {
+    "note_names": [
+      "f",
+      "e",
+      "d"
+    ]
+  },
+  "roussel_1": {
+    "note_names": [
+      "d",
+      "g",
+      "b",
+      "a",
+      "e",
+      "f",
+      "c"
     ]
   },
   "thomas_1": {
     "note_names": [
       "f",
       "e"
-    ],
-    "pitch_classes": [
-      5,
-      4
-    ]
-  },
-  "thomas_2": {
-    "note_names": [
-      "a",
-      "c",
-      "d",
-      "b"
-    ],
-    "pitch_classes": [
-      9,
-      0,
-      2,
-      11
-    ]
-  },
-  "thomas_3": {
-    "note_names": [
-      "b",
-      "e",
-      "f",
-      "c"
-    ],
-    "pitch_classes": [
-      11,
-      4,
-      5,
-      0
-    ]
-  },
-  "thomas_4": {
-    "note_names": [
-      "b",
-      "e",
-      "f",
-      "c"
-    ],
-    "pitch_classes": [
-      11,
-      4,
-      5,
-      0
-    ]
-  },
-  "thomas_5": {
-    "note_names": [
-      "d",
-      "f",
-      "e"
-    ],
-    "pitch_classes": [
-      2,
-      5,
-      4
-    ]
-  },
-  "thomas_6": {
-    "note_names": [
-      "cs",
-      "d",
-      "e",
-      "fs",
-      "gs",
-      "a",
-      "b"
-    ],
-    "pitch_classes": [
-      1,
-      2,
-      4,
-      6,
-      8,
-      9,
-      11
-    ]
-  },
-  "thomas_7": {
-    "note_names": [
-      "e",
-      "f"
-    ],
-    "pitch_classes": [
-      4,
-      5
-    ]
-  },
-  "thomas_8": {
-    "note_names": [
-      "a",
-      "bf",
-      "cs",
-      "d",
-      "e",
-      "fs"
-    ],
-    "pitch_classes": [
-      9,
-      10,
-      1,
-      2,
-      4,
-      6
-    ]
-  },
-  "thomas_9": {
-    "note_names": [
-      "e",
-      "f"
-    ],
-    "pitch_classes": [
-      4,
-      5
     ]
   },
   "thomas_10": {
@@ -611,12 +746,6 @@
       "c",
       "d",
       "b"
-    ],
-    "pitch_classes": [
-      9,
-      0,
-      2,
-      11
     ]
   },
   "thomas_11": {
@@ -625,12 +754,6 @@
       "e",
       "f",
       "c"
-    ],
-    "pitch_classes": [
-      11,
-      4,
-      5,
-      0
     ]
   },
   "thomas_12": {
@@ -639,12 +762,6 @@
       "e",
       "f",
       "c"
-    ],
-    "pitch_classes": [
-      11,
-      4,
-      5,
-      0
     ]
   },
   "thomas_13": {
@@ -653,12 +770,6 @@
       "e",
       "f",
       "c"
-    ],
-    "pitch_classes": [
-      11,
-      4,
-      5,
-      0
     ]
   },
   "thomas_14": {
@@ -670,15 +781,6 @@
       "gs",
       "a",
       "b"
-    ],
-    "pitch_classes": [
-      1,
-      2,
-      4,
-      6,
-      8,
-      9,
-      11
     ]
   },
   "thomas_15": {
@@ -687,12 +789,6 @@
       "e",
       "f",
       "c"
-    ],
-    "pitch_classes": [
-      11,
-      4,
-      5,
-      0
     ]
   },
   "thomas_17": {
@@ -703,14 +799,6 @@
       "c",
       "a",
       "g"
-    ],
-    "pitch_classes": [
-      11,
-      4,
-      5,
-      0,
-      9,
-      7
     ]
   },
   "thomas_18": {
@@ -719,12 +807,6 @@
       "b",
       "c",
       "e"
-    ],
-    "pitch_classes": [
-      5,
-      11,
-      0,
-      4
     ]
   },
   "thomas_19": {
@@ -733,12 +815,14 @@
       "c",
       "d",
       "b"
-    ],
-    "pitch_classes": [
-      9,
-      0,
-      2,
-      11
+    ]
+  },
+  "thomas_2": {
+    "note_names": [
+      "a",
+      "c",
+      "d",
+      "b"
     ]
   },
   "thomas_20": {
@@ -747,12 +831,6 @@
       "e",
       "f",
       "c"
-    ],
-    "pitch_classes": [
-      11,
-      4,
-      5,
-      0
     ]
   },
   "thomas_21": {
@@ -763,14 +841,6 @@
       "d",
       "e",
       "fs"
-    ],
-    "pitch_classes": [
-      9,
-      10,
-      1,
-      2,
-      4,
-      6
     ]
   },
   "thomas_22": {
@@ -779,12 +849,71 @@
       "c",
       "f",
       "e"
-    ],
-    "pitch_classes": [
-      11,
-      0,
-      5,
-      4
+    ]
+  },
+  "thomas_3": {
+    "note_names": [
+      "b",
+      "e",
+      "f",
+      "c"
+    ]
+  },
+  "thomas_4": {
+    "note_names": [
+      "b",
+      "e",
+      "f",
+      "c"
+    ]
+  },
+  "thomas_5": {
+    "note_names": [
+      "d",
+      "f",
+      "e"
+    ]
+  },
+  "thomas_6": {
+    "note_names": [
+      "cs",
+      "d",
+      "e",
+      "fs",
+      "gs",
+      "a",
+      "b"
+    ]
+  },
+  "thomas_7": {
+    "note_names": [
+      "e",
+      "f"
+    ]
+  },
+  "thomas_8": {
+    "note_names": [
+      "a",
+      "bf",
+      "cs",
+      "d",
+      "e",
+      "fs"
+    ]
+  },
+  "thomas_9": {
+    "note_names": [
+      "e",
+      "f"
+    ]
+  },
+  "whitacre_1": {
+    "note_names": [
+      "cs",
+      "e",
+      "gs",
+      "ds",
+      "b"
     ]
   }
 }

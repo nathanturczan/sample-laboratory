@@ -27,9 +27,9 @@ def note_name_to_number(note_name):
 
 def update_sample_manifest():
 	# this function updates samples_data.json in your main directory
-	for chord in samples_dict:
-		for note in samples_dict[chord]["note_names"]: 
-			samples_dict[chord]["pitch_classes"].append(note_name_to_number(note)) 
+	for sample in samples_dict:
+		for note in samples_dict[sample]["note_names"]: 
+			samples_dict[sample]["pitch_classes"].append(note_name_to_number(note)) 
 			json.dumps()
 			pprint.pprint(samples_dict) 
 
@@ -101,6 +101,11 @@ if __name__ == "__main__":
 	with open(path+'/samples_data.json') as f: 
 		samples_dict = json.load(f) 
 
+	for sample in samples_dict:
+		samples_dict[sample].update({"pitch_classes": []})
+		for note in samples_dict[sample]["note_names"]:
+			samples_dict[sample]["pitch_classes"].append(note_name_to_number(note))    
+
 	# main forloop
 
 	for scale_name in scales_dict:
@@ -108,15 +113,15 @@ if __name__ == "__main__":
 			sample_path = path+"/samples/"+sample_name+".wav"
 			# if the sample is a subset of the scale
 			if is_sample_subset_of_scale(scales_dict[scale_name]['pitch_classes'], samples_dict[sample_name]['pitch_classes']):
-				print("creating a shortcut to ", sample_path, "in ", "scale/"+scale_name)
+				print("creating a shortcut to ", sample_path, "in ", "scales_dir/"+scale_name)
 				# create a shortcut / alias / symbolic link to that sample in the scale folder
-				os.symlink(sample_path, "scale/"+scale_name+"/"+sample_name+".wav")
+				os.symlink(sample_path, "scales_dir/"+scale_name+"/"+sample_name+".wav")
 			for transposition in (-2, -1, +1, +2):
 				transposed_sample = transpose_sample(sample_path, transposition)
 				transposed_pitch_classes = transpose_pitch_classes(samples_dict[sample_name]['pitch_classes'], transposition)
 				if is_sample_subset_of_scale(scales_dict[scale_name]['pitch_classes'], transposed_pitch_classes):
-					print("creating a shortcut to ", transposed_sample, "in ", "scale/"+scale_name)
+					print("creating a shortcut to ", transposed_sample, "in ", "scales_dir/"+scale_name)
 					# create a shortcut / alias / symbolic link to that sample in the scale folder
-					os.symlink(transposed_sample, "scale/"+scale_name+"/"+sample_name+"_transposed_by"+str(transposition)+".wav")
+					os.symlink(transposed_sample, "scales_dir/"+scale_name+"/"+sample_name+"_transposed_by"+str(transposition)+".wav")
 
 
