@@ -108,8 +108,8 @@ if __name__ == "__main__":
 
 	# main forloop
 
-	for scale_name in scales_dict:
-		for sample_name in samples_dict:
+	for sample_name in samples_dict:
+		for scale_name in scales_dict:
 			sample_path = path+"/samples/"+sample_name+".wav"
 			# if the sample is a subset of the scale
 			if is_sample_subset_of_scale(scales_dict[scale_name]['pitch_classes'], samples_dict[sample_name]['pitch_classes']):

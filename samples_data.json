@@ -289,6 +289,43 @@
       "c"
     ]
   },
+  "debussy_1": {"note_names": ["c", "d", "e", "f", "g", "a"]},
+  "debussy_2": {"note_names": ["d", "e", "f", "g", "a"]},
+  "debussy_3": {"note_names": ["e", "g", "a", "b", "c"]},
+  "debussy_4": {"note_names": ["e", "g", "a", "b", "c"]},
+  "debussy_5": {"note_names": ["e", "f", "g", "a"]},
+  "debussy_7": {"note_names": ["f", "g", "a"]},
+  "debussy_8": {"note_names": ["d", "e", "f", "g"]},
+  "debussy_9": {"note_names": ["e", "g", "a", "b", "c"]},
+  "debussy_11": {"note_names": ["d", "e", "f", "g", "a"]},
+  "debussy_12": {"note_names": ["e", "g", "a", "b", "c"]},
+  "debussy_13": {"note_names": ["e", "g", "a", "b", "c"]},
+  "debussy_14": {"note_names": ["e", "f", "g", "a"]},
+  "debussy_15": {"note_names": ["d", "e", "f", "g", "a"]},
+  "debussy_16": {"note_names": ["e", "f", "g", "a"]},
+  "debussy_17": {"note_names": ["c", "d", "e", "f", "g"]},
+  "debussy_18": {"note_names": ["d", "e", "f", "g", "a"]},
+  "debussy_19": {"note_names": ["e", "g", "a", "b", "c"]},
+  "debussy_20": {"note_names": ["d", "e", "f", "g", "a"]},
+  "debussy_21": {"note_names": ["c", "d", "e", "f", "g"]},
+  "debussy_22": {"note_names": ["e", "f", "g", "a"]},
+  "debussy_23": {"note_names": ["f", "g", "a"]},
+  "debussy_24": {"note_names": ["d", "e", "f", "g"]},
+  "desplat_1": {"note_names": ["fs", "gs", "as", "b", "cs", "ds"]},
+  "desplat_2": {"note_names": ["fs", "as", "b", "cs", "ds", "e" ]},
+  "desplat_3": {"note_names": ["b", "fs"]},
+  "desplat_4": {"note_names": ["e", "gs", "b"]},
+  "desplat_6": {"note_names": ["as", "b", "ds", "g", "gs"]},
+  "desplat_7": {"note_names": ["as", "b", "ds", "g", "gs"]},
+  "desplat_8": {"note_names": ["d", "f", "gs", "b", "cs"]},
+  "desplat_9": {"note_names": ["ds", "g", "as"]},
+  "desplat_10": {"note_names": ["b", "cs", "ds", "fs"]},
+  "desplat_11": {"note_names": ["b", "cs", "ds", "fs"]},
+  "desplat_12": {"note_names": ["gs", "a", "d", "e", "fs"]},
+  "desplat_13": {"note_names": ["gs", "a", "b", "cs", "ds", "e", "fs"]},
+  "desplat_14": {"note_names": ["gs", "a", "b", "cs", "d", "e"]},
+  "desplat_16": {"note_names": ["gs", "c", "cs", "ds"]},
+  "desplat_17": {"note_names": ["a", "d", "f"]},
   "dj_1": {
     "note_names": [
       "C#",
@@ -499,6 +536,22 @@
       "b"
     ]
   },
+  "handel_1": {"note_names": ["g", "a", "as", "cs", "e"]},
+  "handel_2": {"note_names": ["c", "cs", "ds", "e", "fs", "g", "a", "as"]},
+  "handel_3": {"note_names": ["ds", "f", "fs", "gs", "a", "b", "c", "d"]},
+  "handel_4": {"note_names": ["ds", "f", "fs", "gs", "a", "b", "c", "d"]},
+  "handel_6": {"note_names": ["gs", "b", "cs", "d", "e", "f"]},
+  "handel_8": {"note_names": ["a", "c", "cs", "ds", "fs"]},
+  "handel_9": {"note_names": ["g", "a", "as", "cs", "e", "fs"]},
+  "handel_10": {"note_names": ["as", "cs", "d", "e", "fs", "g"]},
+  "handel_11": {"note_names": ["f", "fs", "gs", "b", "d"]},
+  "handel_12": {"note_names": ["f", "gs", "a", "b", "cs"]},
+  "handel_13": {"note_names": ["g", "a", "b", "cs", "d", "fs"]},
+  "handel_14": {"note_names": ["b", "c", "d", "ds", "fs", "g", "a"]},
+  "handel_15": {"note_names": ["a", "c", "cs", "ds", "fs"]},
+  "handel_16": {"note_names": ["f", "fs", "gs", "a", "b", "cs"]},
+  "handel_17": {"note_names": [ "f", "fs", "gs", "a", "b", "cs"]},
+  "head_1": {"note_names": ["c", "ef", "f", "g", "af", "bf"]},
   "hohvaness_1": {
     "note_names": [
       "c",
@@ -538,6 +591,14 @@
       "c"
     ]
   },
+  "laraaji_1": {"note_names": ["d", "e", "f", "g", "a", "bf", "c"]},
+  "laraaji_10": {"note_names": ["d", "e", "f", "g", "a", "bf", "c"]},
+  "laraaji_2": {"note_names": ["d", "e", "f", "g", "a", "bf", "c"]},
+  "laraaji_3": {"note_names": ["d", "e", "f", "g", "a", "bf", "c"]},
+  "laraaji_5": {"note_names": ["d", "e", "f", "g", "a", "bf", "c"]},
+  "laraaji_7": {"note_names": ["d", "e", "f", "g", "a", "bf", "c"]},
+  "laraaji_8": {"note_names": ["d", "e", "f", "g", "a", "bf", "c"]},
+  "laraaji_9": {"note_names": ["d", "e", "f", "g", "a", "bf", "c"]},
   "liszt_1": {
     "note_names": [
       "ef",
@@ -907,6 +968,7 @@
       "f"
     ]
   },
+  "villalobos_1": {"note_names": ["a", "c", "e", "g", "b"]},
   "whitacre_1": {
     "note_names": [
       "cs",
@@ -915,5 +977,7 @@
       "ds",
       "b"
     ]
-  }
+  },
+  "zerkel_1": {"note_names": ["b", "cs", "d", "e", "g"]},
+  "zerkel_2": {"note_names": ["ds", "f", "fs", "gs"]}
 }
