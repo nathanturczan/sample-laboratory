@@ -116,7 +116,7 @@ if __name__ == "__main__":
 				print("creating a shortcut to ", sample_path, "in ", "scales_dir/"+scale_name)
 				# create a shortcut / alias / symbolic link to that sample in the scale folder
 				os.symlink(sample_path, "scales_dir/"+scale_name+"/"+sample_name+".wav")
-			for transposition in (-2, -1, +1, +2):
+			for transposition in (-4, -3, -2, -1, +1, +2):
 				transposed_sample = transpose_sample(sample_path, transposition)
 				transposed_pitch_classes = transpose_pitch_classes(samples_dict[sample_name]['pitch_classes'], transposition)
 				if is_sample_subset_of_scale(scales_dict[scale_name]['pitch_classes'], transposed_pitch_classes):
