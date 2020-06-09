@@ -1,530 +1,2497 @@
 {
-  "balakirev_1": {
-    "note_names": ["e", "gs", "b"]
-  },
-  "bell_1": {
-    "note_names": ["gs", "b"]
-  },
-  "berio_cello_1": {
-    "note_names": ["a", "b", "c", "d", "e"]
-  },
-  "berio_cello_2": {
-    "note_names": ["a", "b", "c", "ds", "e"]
-  },
-  "berio_cello_3": {
-    "note_names": ["a", "b", "c"]
-  },
-  "berio_cello_4": {
-    "note_names": ["ds", "f", "a"]
-  },
-  "berio_cello_5": {
-    "note_names": ["d", "gs", "c", "b", "e", "f"]
-  },
-  "berio_cello_6": {
-    "note_names": ["gs", "c", "d", "ds", "b"]
-  },
-  "berio_cello_7": {
-    "note_names": ["A", "G", "D", "C", "B"]
-  },
-  "berio_clarinet_1": {
-    "note_names": ["c", "d", "ds", "f"]
-  },
-  "berio_clarinet_3": {
-    "note_names": ["c", "d", "ds", "f", "fs"]
-  },
-  "berio_clarinet_4": {
-    "note_names": ["e", "a", "c", "d"]
-  },
-  "berio_flute_1": {
-    "note_names": ["d", "cs"]
-  },
-  "berio_flute_2": {
-    "note_names": ["b", "cs"]
-  },
-  "berio_flute_3": {
-    "note_names": ["E", "Fs", "C"]
-  },
-  "berio_flute_4": {
-    "note_names": ["c", "cs"]
-  },
-  "berio_flute_6": {
-    "note_names": ["bf", "cs", "d", "b"]
-  },
-  "berio_guitar_1": {
-    "note_names": ["e", "ds", "a", "b"]
-  },
-  "berio_guitar_3": {
-    "note_names": ["c", "d", "fs", "g", "b", "ef"]
-  },
-  "berio_guitar_4": {
-    "note_names": ["c", "e", "fs", "d", "e"]
-  },
-  "berio_guitar_6": {
-    "note_names": ["g", "c", "fs", "b", "d"]
-  },
-  "berio_guitar_7": {
-    "note_names": ["a", "d", "g", "b", "e"]
-  },
-  "berio_guitar_8": {
-    "note_names": ["C", "E", "Fs", "G", "D", "E"]
-  },
-  "berio_harp_1": {
-    "note_names": ["fs", "gs"]
-  },
-  "berio_trumpet_2": {
-    "note_names": ["d", "g", "b"]
-  },
-  "bozza_1": {
-    "note_names": ["e", "fs", "g", "a", "bf", "cs", "d"]
-  },
-  "corelli_1": {
-    "note_names": ["ef", "g", "bf", "f", "af"]
-  },
-  "corelli_2": {
-    "note_names": ["ef", "g", "bf", "af", "c"]
-  },
-  "corelli_3": {
-    "note_names": ["ef", "g", "bf", "f", "af"]
-  },
-  "corelli_4": {
-    "note_names": ["bf", "d", "f", "c", "ef"]
-  },
-  "corelli_5": {
-    "note_names": ["bf", "d", "f", "g", "ef"]
-  },
-  "corelli_6": {
-    "note_names": ["bf", "d", "f", "c", "ef"]
-  },
-  "corelli_7": {
-    "note_names": ["c", "ef", "g"]
-  },
-  "corelli_8": {
-    "note_names": ["c", "ef", "g", "af", "f"]
-  },
-  "corelli_9": {
-    "note_names": ["b", "d", "f", "g", "af", "c"]
-  },
-  "debussy_1": {
-    "note_names": ["c", "d", "e", "f", "g", "a"]
-  },
-  "debussy_2": {
-    "note_names": ["d", "e", "f", "g", "a"]
-  },
-  "debussy_3": {
-    "note_names": ["e", "g", "a", "b", "c"]
-  },
-  "debussy_4": {
-    "note_names": ["e", "g", "a", "b", "c"]
-  },
-  "debussy_5": {
-    "note_names": ["e", "f", "g", "a"]
-  },
-  "debussy_7": {
-    "note_names": ["f", "g", "a"]
-  },
-  "debussy_8": {
-    "note_names": ["d", "e", "f", "g"]
-  },
-  "debussy_9": {
-    "note_names": ["e", "g", "a", "b", "c"]
-  },
-  "debussy_11": {
-    "note_names": ["d", "e", "f", "g", "a"]
-  },
-  "debussy_12": {
-    "note_names": ["e", "g", "a", "b", "c"]
-  },
-  "debussy_13": {
-    "note_names": ["e", "g", "a", "b", "c"]
-  },
-  "debussy_14": {
-    "note_names": ["e", "f", "g", "a"]
-  },
-  "debussy_15": {
-    "note_names": ["d", "e", "f", "g", "a"]
-  },
-  "debussy_16": {
-    "note_names": ["e", "f", "g", "a"]
-  },
-  "debussy_17": {
-    "note_names": ["c", "d", "e", "f", "g"]
-  },
-  "debussy_18": {
-    "note_names": ["d", "e", "f", "g", "a"]
-  },
-  "debussy_19": {
-    "note_names": ["e", "g", "a", "b", "c"]
-  },
-  "debussy_20": {
-    "note_names": ["d", "e", "f", "g", "a"]
-  },
-  "debussy_21": {
-    "note_names": ["c", "d", "e", "f", "g"]
-  },
-  "debussy_22": {
-    "note_names": ["e", "f", "g", "a"]
-  },
-  "debussy_23": {
-    "note_names": ["f", "g", "a"]
-  },
-  "debussy_24": {
-    "note_names": ["d", "e", "f", "g"]
-  },
-  "desplat_1": {
-    "note_names": ["fs", "gs", "as", "b", "cs", "ds"]
-  },
-  "desplat_2": {
-    "note_names": ["fs", "as", "b", "cs", "ds", "e" ]
-  },
-  "desplat_3": {
-    "note_names": ["b", "fs"]
-  },
-  "desplat_4": {
-    "note_names": ["e", "gs", "b"]
-  },
-  "desplat_6": {
-    "note_names": ["as", "b", "ds", "g", "gs"]
-  },
-  "desplat_7": {
-    "note_names": ["as", "b", "ds", "g", "gs"]
-  },
-  "desplat_8": {
-    "note_names": ["d", "f", "gs", "b", "cs"]
-  },
-  "desplat_9": {
-    "note_names": ["ds", "g", "as"]
-  },
-  "desplat_10": {
-    "note_names": ["b", "cs", "ds", "fs"]
-  },
-  "desplat_11": {
-    "note_names": ["b", "cs", "ds", "fs"]
-  },
-  "desplat_12": {
-    "note_names": ["gs", "a", "d", "e", "fs"]
-  },
-  "desplat_13": {
-    "note_names": ["gs", "a", "b", "cs", "ds", "e", "fs"]
-  },
-  "desplat_14": {
-    "note_names": ["gs", "a", "b", "cs", "d", "e"]
-  },
-  "desplat_16": {
-    "note_names": ["gs", "c", "cs", "ds"]
-  },
-  "desplat_17": {
-    "note_names": ["a", "d", "f"]
-  },
-  "dj_1": {
-    "note_names": ["C#", "F#", "G#"]
-  },
-  "eller_1": {
-    "note_names": ["d", "a", "fs", "b", "e", "g"]
-  },
-  "eller_2": {
-    "note_names": ["d", "a", "fs", "b", "e", "g", "c"]
-  },
-  "eller_3": {
-    "note_names": ["d", "a", "f", "b", "e", "g"]
-  },
-  "eller_4": {
-    "note_names": ["d", "a", "f", "b", "e", "g", "c"]
-  },
-  "eno_1": {
-    "note_names": ["a", "c", "e"]
-  },
-  "eno_10": {
+  "balakirev_1":{
+    "note_names":[
+      "e",
+      "gs",
+      "b"
+    ]
+  },
+  "bartok_1":{
+    "note_names":[
+      "e",
+      "fs",
+      "cs",
+      "gs",
+      "a"
+    ]
+  },
+  "bartok_2":{
+    "note_names":[
+      "d",
+      "e",
+      "fs",
+      "gs",
+      "a",
+      "b",
+      "cs"
+    ]
+  },
+  "bartok_3":{
+    "note_names":[
+      "cs",
+      "d",
+      "e",
+      "fs",
+      "gs",
+      "a",
+      "b"
+    ]
+  },
+  "bartok_4":{
+    "note_names":[
+      "e",
+      "fs",
+      "gs",
+      "a",
+      "b",
+      "cs"
+    ]
+  },
+  "bartok_5":{
+    "note_names":[
+      "d",
+      "e",
+      "fs",
+      "a",
+      "cs"
+    ]
+  },
+  "bartok_6":{
+    "note_names":[
+      "b",
+      "cs",
+      "d",
+      "e",
+      "f",
+      "fs",
+      "a"
+    ]
+  },
+  "bartok_7":{
+    "note_names":[
+      "a",
+      "b",
+      "cs",
+      "d",
+      "e",
+      "fs"
+    ]
+  },
+  "bartok_8":{
+    "note_names":[
+      "fs",
+      "gs",
+      "a",
+      "b",
+      "cs",
+      "e"
+    ]
+  },
+  "beeftink_flamenco_1":{
+    "note_names":[
+      "e",
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  "beeftink_flamenco_2":{
+    "note_names":[
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g"
+    ]
+  },
+  "beeftink_flamenco_3":{
+    "note_names":[
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+    ]
+  },
+  "beeftink_flamenco_4":{
+    "note_names":[
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "gs"
+    ]
+  },
+  "beeftink_flamenco_5":{
+    "note_names":[
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  "beeftink_flute_1":{
+    "note_names":[
+      "e",
+      "f",
+      "a",
+      "c"
+    ]
+  },
+  "beeftink_flute_2":{
+    "note_names":[
+      "e",
+      "f",
+      "a",
+      "c"
+    ]
+  },
+  "beeftink_flute_3":{
+    "note_names":[
+      "e",
+      "a",
+      "c"
+    ]
+  },
+  "beeftink_flute_4":{
+    "note_names":[
+      "e",
+      "a",
+      "c"
+    ]
+  },
+  "beeftink_flute_5":{
+    "note_names":[
+      "e",
+      "f",
+      "a",
+      "c"
+    ]
+  },
+  "beeftink_flute_6":{
+    "note_names":[
+      "a",
+      "c"
+    ]
+  },
+  "beeftink_flute_7":{
+    "note_names":[
+      "a",
+      "c"
+    ]
+  },
+  "beeftink_flute_8":{
+    "note_names":[
+      "e",
+      "g"
+    ]
+  },
+  "beeftink_flute_9":{
+    "note_names":[
+      "e",
+      "g"
+    ]
+  },
+  "beeftink_flute_10":{
+    "note_names":[
+      "a",
+      "c"
+    ]
+  },
+  "beeftink_flute_11":{
+    "note_names":[
+      "a",
+      "c"
+    ]
+  },
+  "bell_1":{
+    "note_names":[
+      "gs",
+      "b"
+    ]
+  },
+  "berio_cello_1":{
+    "note_names":[
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ]
+  },
+  "berio_cello_2":{
+    "note_names":[
+      "a",
+      "b",
+      "c",
+      "ds",
+      "e"
+    ]
+  },
+  "berio_cello_3":{
+    "note_names":[
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  "berio_cello_4":{
+    "note_names":[
+      "ds",
+      "f",
+      "a"
+    ]
+  },
+  "berio_cello_5":{
+    "note_names":[
+      "d",
+      "gs",
+      "c",
+      "b",
+      "e",
+      "f"
+    ]
+  },
+  "berio_cello_6":{
+    "note_names":[
+      "gs",
+      "c",
+      "d",
+      "ds",
+      "b"
+    ]
+  },
+  "berio_cello_7":{
+    "note_names":[
+      "A",
+      "G",
+      "D",
+      "C",
+      "B"
+    ]
+  },
+  "berio_clarinet_1":{
+    "note_names":[
+      "c",
+      "d",
+      "ds",
+      "f"
+    ]
+  },
+  "berio_clarinet_3":{
+    "note_names":[
+      "c",
+      "d",
+      "ds",
+      "f",
+      "fs"
+    ]
+  },
+  "berio_clarinet_4":{
+    "note_names":[
+      "e",
+      "a",
+      "c",
+      "d"
+    ]
+  },
+  "berio_flute_1":{
+    "note_names":[
+      "d",
+      "cs"
+    ]
+  },
+  "berio_flute_2":{
+    "note_names":[
+      "b",
+      "cs"
+    ]
+  },
+  "berio_flute_3":{
+    "note_names":[
+      "E",
+      "Fs",
+      "C"
+    ]
+  },
+  "berio_flute_4":{
+    "note_names":[
+      "c",
+      "cs"
+    ]
+  },
+  "berio_flute_6":{
+    "note_names":[
+      "bf",
+      "cs",
+      "d",
+      "b"
+    ]
+  },
+  "berio_guitar_1":{
+    "note_names":[
+      "e",
+      "ds",
+      "a",
+      "b"
+    ]
+  },
+  "berio_guitar_3":{
+    "note_names":[
+      "c",
+      "d",
+      "fs",
+      "g",
+      "b",
+      "ef"
+    ]
+  },
+  "berio_guitar_4":{
+    "note_names":[
+      "c",
+      "e",
+      "fs",
+      "d",
+      "e"
+    ]
+  },
+  "berio_guitar_6":{
+    "note_names":[
+      "g",
+      "c",
+      "fs",
+      "b",
+      "d"
+    ]
+  },
+  "berio_guitar_7":{
+    "note_names":[
+      "a",
+      "d",
+      "g",
+      "b",
+      "e"
+    ]
+  },
+  "berio_guitar_8":{
+    "note_names":[
+      "C",
+      "E",
+      "Fs",
+      "G",
+      "D",
+      "E"
+    ]
+  },
+  "berio_harp_1":{
+    "note_names":[
+      "fs",
+      "gs"
+    ]
+  },
+  "berio_trumpet_2":{
+    "note_names":[
+      "d",
+      "g",
+      "b"
+    ]
+  },
+  "bozza_1":{
+    "note_names":[
+      "e",
+      "fs",
+      "g",
+      "a",
+      "bf",
+      "cs",
+      "d"
+    ]
+  },
+  "busoni_cello_1":{
+    "note_names": ["f", "g", "a", "bf", "d", "e"]
+  },
+  "busoni_cello_2":{
+    "note_names": ["g", "bf", "c", "d", "f"]
+  },
+  "catalani_1":{
+    "note_names": ["cs", "g", "bf", "ef"]
+  },
+  "catalani_2":{
     "note_names": ["d", "fs", "a"]
   },
-  "eno_11": {
-    "note_names": ["g", "b", "d"]
+  "catalani_3":{
+    "note_names": ["g", "a", "bf", "c"]
   },
-  "eno_12": {
-    "note_names": ["c", "e", "g"]
+  "catalani_4":{
+    "note_names": ["fs", "g", "a", "bf", "d"]
   },
-  "eno_13": {
-    "note_names": ["e", "g", "b"]
+  "catalani_5":{
+    "note_names": ["d", "g", "a", "bf", "c"]
   },
-  "eno_14": {
-    "note_names": ["c", "e", "g"]
-  },
-  "eno_15": {
-    "note_names": ["d", "fs", "a"]
-  },
-  "eno_16": {
-    "note_names": ["g", "b", "d"]
-  },
-  "eno_2": {
-    "note_names": ["a", "d", "fs"]
-  },
-  "eno_3": {
-    "note_names": ["c", "d", "e", "g"]
-  },
-  "eno_4": {
-    "note_names": ["b", "e", "g"]
-  },
-  "eno_5": {
-    "note_names": ["g", "c", "e"]
-  },
-  "eno_6": {
-    "note_names": ["d", "fs", "a", "cs"]
-  },
-  "eno_7": {
-    "note_names": ["g", "b", "d"]
-  },
-  "eno_9": {
-    "note_names": ["a", "c", "e"]
-  },
-  "grieg_1": {
-    "note_names": ["c", "e", "g", "a", "b"]
-  },
-  "grieg_2": {
-    "note_names": ["e", "g", "b", "c", "d"]
-  },
-  "grieg_3": {
-    "note_names": ["b", "e"]
-  },
-  "grieg_4": {
-    "note_names": ["e", "gs", "b"]
-  },
-  "grieg_5": {
-    "note_names": ["a", "b", "c", "e", "f", "g"]
-  },
-  "grieg_6": {
-    "note_names": ["b", "e"]
-  },
-  "grieg_7": {
-    "note_names": ["e", "g", "b"]
-  },
-  "handel_1": {
-    "note_names": ["g", "a", "as", "cs", "e"]
-  },
-  "handel_2": {
-    "note_names": ["c", "cs", "ds", "e", "fs", "g", "a", "as"]
-  },
-  "handel_3": {
-    "note_names": ["ds", "f", "fs", "gs", "a", "b", "c", "d"]
-  },
-  "handel_4": {
-    "note_names": ["ds", "f", "fs", "gs", "a", "b", "c", "d"]
-  },
-  "handel_6": {
-    "note_names": ["gs", "b", "cs", "d", "e", "f"]
-  },
-  "handel_8": {
-    "note_names": ["a", "c", "cs", "ds", "fs"]
-  },
-  "handel_9": {
-    "note_names": ["g", "a", "as", "cs", "e", "fs"]
-  },
-  "handel_10": {
-    "note_names": ["as", "cs", "d", "e", "fs", "g"]
-  },
-  "handel_11": {
-    "note_names": ["f", "fs", "gs", "b", "d"]
-  },
-  "handel_12": {
-    "note_names": ["f", "gs", "a", "b", "cs"]
-  },
-  "handel_13": {
-    "note_names": ["g", "a", "b", "cs", "d", "fs"]
-  },
-  "handel_14": {
-    "note_names": ["b", "c", "d", "ds", "fs", "g", "a"]
-  },
-  "handel_15": {
-    "note_names": ["a", "c", "cs", "ds", "fs"]
-  },
-  "handel_16": {
-    "note_names": ["f", "fs", "gs", "a", "b", "cs"]
-  },
-  "handel_17": {
-    "note_names": ["f", "fs", "gs", "a", "b", "cs"]
-  },
-  "head_1": {
-    "note_names": ["c", "ef", "f", "g", "af", "bf"]
-  },
-  "hohvaness_1": {
-    "note_names": ["c", "g", "df", "af", "e", "b"]
-  },
-  "honegger_1": {
-    "note_names": ["c", "fs", "b", "e", "d"]
-  },
-  "honegger_2": {
-    "note_names": ["g", "a", "b", "d", "e", "fs"]
-  },
-  "honegger_3": {
-    "note_names": ["c", "fs", "b", "e", "d", "c"]
-  },
-  "laraaji_1": {
-    "note_names": ["d", "e", "f", "g", "a", "bf", "c"]
-  },
-  "laraaji_10": {
-    "note_names": ["d", "e", "f", "g", "a", "bf", "c"]
-  },
-  "laraaji_2": {
-    "note_names": ["d", "e", "f", "g", "a", "bf", "c"]
-  },
-  "laraaji_3": {
-    "note_names": ["d", "e", "f", "g", "a", "bf", "c"]
-  },
-  "laraaji_5": {
-    "note_names": ["d", "e", "f", "g", "a", "bf", "c"]
-  },
-  "laraaji_7": {
-    "note_names": ["d", "e", "f", "g", "a", "bf", "c"]
-  },
-  "laraaji_8": {
-    "note_names": ["d", "e", "f", "g", "a", "bf", "c"]
-  },
-  "laraaji_9": {
-    "note_names": ["d", "e", "f", "g", "a", "bf", "c"]
-  },
-  "liszt_1": {
-    "note_names": ["ef", "bf", "a", "c", "gf"]
-  },
-  "lyapunov_1": {
-    "note_names": ["gs", "as", "b", "cs", "ds"]
-  },
-  "lyapunov_2": {
-    "note_names": ["E", "G#", "B", "D#"]
-  },
-  "lyapunov_3": {
-    "note_names": ["c#", "E", "G#", "B"]
-  },
-  "moz_1": {
-    "note_names": ["ef", "g", "bf"]
-  },
-  "moz_2": {
-    "note_names": ["c", "ef", "g"]
-  },
-  "moz_3": {
-    "note_names": ["g", "bf", "ef"]
-  },
-  "moz_4": {
-    "note_names": ["bf", "d", "f"]
-  },
-  "moz_5": {
-    "note_names": ["bf", "d", "f"]
-  },
-  "moz_6": {
-    "note_names": ["bf", "d", "f"]
-  },
-  "moz_7": {
-    "note_names": ["f", "g", "af", "bf", "c", "df", "e"]
-  },
-  "moz_8": {
-    "note_names": ["a", "b", "cs", "d"]
-  },
-  "poulenc_1": {
-    "note_names": ["d", "bf", "ef", "fs"]
-  },
-  "poulenc_2": {
-    "note_names": ["ef", "af", "cf", "g"]
-  },
-  "poulenc_3": {
-    "note_names": ["g", "a", "b", "d", "e", "fs"]
-  },
-  "poulenc_4": {
-    "note_names": ["g", "f", "d", "b", "c", "e", "a"]
-  },
-  "poulenc_5": {
-    "note_names": ["g", "a", "fs", "e", "d"]
-  },
-  "poulenc_6": {
-    "note_names": ["c", "d", "fs", "g", "e"]
-  },
-  "poulenc_7": {
-    "note_names": ["g", "c", "d", "b"]
-  },
-  "poulenc_8": {
-    "note_names": ["g", "bf", "f"]
-  },
-  "ravel_1": {
-    "note_names": ["f", "a", "c"]
-  },
-  "rimsky_1": {
+  "catalani_6":{
     "note_names": ["d", "e", "f", "g", "a"]
   },
-  "rimsky_2": {
-    "note_names": ["f", "e", "d"]
+  "catalani_7":{
+    "note_names": ["a", "cs", "d", "e", "f"]
   },
-  "roussel_1": {
-    "note_names": ["d", "g", "b", "a", "e", "f", "c"]
+  "catalani_8":{
+    "note_names": ["a", "d", "e", "f", "g"]
   },
-  "thomas_1": {
-    "note_names": ["f", "e"]
+  "catalani_9":{
+    "note_names": ["g", "a", "bf", "c"]
   },
-  "thomas_10": {
-    "note_names": ["a", "c", "d", "b"]
+  "chasins_piano_1":{
+    "note_names":[
+      "d",
+      "ef",
+      "f",
+      "g",
+      "a"
+    ]
   },
-  "thomas_11": {
-    "note_names": ["b", "e", "f", "c"]
+  "chen_violin_1":{
+    "note_names":[
+      "g",
+      "a",
+      "c",
+      "d"
+    ]
   },
-  "thomas_12": {
-    "note_names": ["b", "e", "f", "c"]
+  "chen_violin_3":{
+    "note_names":[
+      "a",
+      "fs",
+      "d"
+    ]
   },
-  "thomas_13": {
-    "note_names": ["b", "e", "f", "c"]
+  "contrabassoon_1":{
+    "note_names":[
+      "bf",
+      "d",
+      "e",
+      "f",
+      "g",
+      "af"
+    ]
   },
-  "thomas_14": {
-    "note_names": ["cs", "d", "e", "fs", "gs", "a", "b"]
+  "corelli_1":{
+    "note_names":[
+      "ef",
+      "g",
+      "bf",
+      "f",
+      "af"
+    ]
   },
-  "thomas_15": {
-    "note_names": ["b", "e", "f", "c"]
+  "corelli_2":{
+    "note_names":[
+      "ef",
+      "g",
+      "bf",
+      "af",
+      "c"
+    ]
   },
-  "thomas_17": {
-    "note_names": ["b", "e", "f", "c", "a", "g"]
+  "corelli_3":{
+    "note_names":[
+      "ef",
+      "g",
+      "bf",
+      "f",
+      "af"
+    ]
   },
-  "thomas_18": {
-    "note_names": ["f", "b", "c", "e"]
+  "corelli_4":{
+    "note_names":[
+      "bf",
+      "d",
+      "f",
+      "c",
+      "ef"
+    ]
   },
-  "thomas_19": {
-    "note_names": ["a", "c", "d", "b"]
+  "corelli_5":{
+    "note_names":[
+      "bf",
+      "d",
+      "f",
+      "g",
+      "ef"
+    ]
   },
-  "thomas_2": {
-    "note_names": ["a", "c", "d", "b"]
+  "corelli_6":{
+    "note_names":[
+      "bf",
+      "d",
+      "f",
+      "c",
+      "ef"
+    ]
   },
-  "thomas_20": {
-    "note_names": ["b", "e", "f", "c"]
+  "corelli_7":{
+    "note_names":[
+      "c",
+      "ef",
+      "g"
+    ]
   },
-  "thomas_21": {
-    "note_names": ["a", "bf", "cs", "d", "e", "fs"]
+  "corelli_8":{
+    "note_names":[
+      "c",
+      "ef",
+      "g",
+      "af",
+      "f"
+    ]
   },
-  "thomas_22": {
-    "note_names": ["b", "c", "f", "e"]
+  "corelli_9":{
+    "note_names":[
+      "b",
+      "d",
+      "f",
+      "g",
+      "af",
+      "c"
+    ]
   },
-  "thomas_3": {
-    "note_names": ["b", "e", "f", "c"]
+  "cowell_1":{
+    "note_names":[
+      "fs", "as", "cs", "ds", "gs"
+    ]
   },
-  "thomas_4": {
-    "note_names": ["b", "e", "f", "c"]
+  "cowell_2":{
+    "note_names":[
+      "fs", "as", "cs", "ds", "gs"
+    ]
   },
-  "thomas_5": {
-    "note_names": ["d", "f", "e"]
+  "cowell_3":{
+    "note_names":[
+      "fs", "as", "cs", "ds", "gs"
+    ]
   },
-  "thomas_6": {
-    "note_names": ["cs", "d", "e", "fs", "gs", "a", "b"]
+  "debussy_1":{
+    "note_names":[
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "a"
+    ]
   },
-  "thomas_7": {
-    "note_names": ["e", "f"]
+  "debussy_11":{
+    "note_names":[
+      "d",
+      "e",
+      "f",
+      "g",
+      "a"
+    ]
   },
-  "thomas_8": {
-    "note_names": ["a", "bf", "cs", "d", "e", "fs"]
+  "debussy_12":{
+    "note_names":[
+      "e",
+      "g",
+      "a",
+      "b",
+      "c"
+    ]
   },
-  "thomas_9": {
-    "note_names": ["e", "f"]
+  "debussy_13":{
+    "note_names":[
+      "e",
+      "g",
+      "a",
+      "b",
+      "c"
+    ]
   },
-  "villalobos_1": {
-    "note_names": ["a", "c", "e", "g", "b"]
+  "debussy_14":{
+    "note_names":[
+      "e",
+      "f",
+      "g",
+      "a"
+    ]
   },
-  "whitacre_1": {
-    "note_names": ["cs", "e", "gs", "ds", "b"]
+  "debussy_15":{
+    "note_names":[
+      "d",
+      "e",
+      "f",
+      "g",
+      "a"
+    ]
   },
-  "zerkel_1": {
-    "note_names": ["b", "cs", "d", "e", "g"]
+  "debussy_16":{
+    "note_names":[
+      "e",
+      "f",
+      "g",
+      "a"
+    ]
   },
-  "zerkel_2": {
-    "note_names": ["ds", "f", "fs", "gs"]
+  "debussy_17":{
+    "note_names":[
+      "c",
+      "d",
+      "e",
+      "f",
+      "g"
+    ]
+  },
+  "debussy_18":{
+    "note_names":[
+      "d",
+      "e",
+      "f",
+      "g",
+      "a"
+    ]
+  },
+  "debussy_19":{
+    "note_names":[
+      "e",
+      "g",
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  "debussy_2":{
+    "note_names":[
+      "d",
+      "e",
+      "f",
+      "g",
+      "a"
+    ]
+  },
+  "debussy_20":{
+    "note_names":[
+      "d",
+      "e",
+      "f",
+      "g",
+      "a"
+    ]
+  },
+  "debussy_21":{
+    "note_names":[
+      "c",
+      "d",
+      "e",
+      "f",
+      "g"
+    ]
+  },
+  "debussy_22":{
+    "note_names":[
+      "e",
+      "f",
+      "g",
+      "a"
+    ]
+  },
+  "debussy_23":{
+    "note_names":[
+      "f",
+      "g",
+      "a"
+    ]
+  },
+  "debussy_24":{
+    "note_names":[
+      "d",
+      "e",
+      "f",
+      "g"
+    ]
+  },
+  "debussy_3":{
+    "note_names":[
+      "e",
+      "g",
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  "debussy_4":{
+    "note_names":[
+      "e",
+      "g",
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  "debussy_5":{
+    "note_names":[
+      "e",
+      "f",
+      "g",
+      "a"
+    ]
+  },
+  "debussy_7":{
+    "note_names":[
+      "f",
+      "g",
+      "a"
+    ]
+  },
+  "debussy_8":{
+    "note_names":[
+      "d",
+      "e",
+      "f",
+      "g"
+    ]
+  },
+  "debussy_9":{
+    "note_names":[
+      "e",
+      "g",
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  "debussy_piano_1":{
+    "note_names":[
+      "d",
+      "e",
+      "fs",
+      "gs",
+      "a",
+      "b",
+      "cs"
+    ]
+  },
+  "debussy_piano_2":{
+    "note_names":[
+      "ds",
+      "fs",
+      "as"
+    ]
+  },
+  "desplat_1":{
+    "note_names":[
+      "fs",
+      "gs",
+      "as",
+      "b",
+      "cs",
+      "ds"
+    ]
+  },
+  "desplat_10":{
+    "note_names":[
+      "b",
+      "cs",
+      "ds",
+      "fs"
+    ]
+  },
+  "desplat_11":{
+    "note_names":[
+      "b",
+      "cs",
+      "ds",
+      "fs"
+    ]
+  },
+  "desplat_12":{
+    "note_names":[
+      "gs",
+      "a",
+      "d",
+      "e",
+      "fs"
+    ]
+  },
+  "desplat_13":{
+    "note_names":[
+      "gs",
+      "a",
+      "b",
+      "cs",
+      "ds",
+      "e",
+      "fs"
+    ]
+  },
+  "desplat_14":{
+    "note_names":[
+      "gs",
+      "a",
+      "b",
+      "cs",
+      "d",
+      "e"
+    ]
+  },
+  "desplat_16":{
+    "note_names":[
+      "gs",
+      "c",
+      "cs",
+      "ds"
+    ]
+  },
+  "desplat_17":{
+    "note_names":[
+      "a",
+      "d",
+      "f"
+    ]
+  },
+  "desplat_2":{
+    "note_names":[
+      "fs",
+      "as",
+      "b",
+      "cs",
+      "ds",
+      "e"
+    ]
+  },
+  "desplat_3":{
+    "note_names":[
+      "b",
+      "fs"
+    ]
+  },
+  "desplat_4":{
+    "note_names":[
+      "e",
+      "gs",
+      "b"
+    ]
+  },
+  "desplat_6":{
+    "note_names":[
+      "as",
+      "b",
+      "ds",
+      "g",
+      "gs"
+    ]
+  },
+  "desplat_7":{
+    "note_names":[
+      "as",
+      "b",
+      "ds",
+      "g",
+      "gs"
+    ]
+  },
+  "desplat_8":{
+    "note_names":[
+      "d",
+      "f",
+      "gs",
+      "b",
+      "cs"
+    ]
+  },
+  "desplat_9":{
+    "note_names":[
+      "ds",
+      "g",
+      "as"
+    ]
+  },
+  "dett_piano_1":{
+    "note_names":[
+      "d", "e", "fs", "g", "a", "b", "cs"
+    ]
+  },
+  "dett_piano_2":{
+    "note_names":[
+      "d", "e", "fs", "g", "a", "b", "cs"
+    ]
+  },
+  "dj_1":{
+    "note_names":[
+      "C#",
+      "F#",
+      "G#"
+    ]
+  },
+  "eller_1":{
+    "note_names":[
+      "d",
+      "a",
+      "fs",
+      "b",
+      "e",
+      "g"
+    ]
+  },
+  "eller_2":{
+    "note_names":[
+      "d",
+      "a",
+      "fs",
+      "b",
+      "e",
+      "g",
+      "c"
+    ]
+  },
+  "eller_3":{
+    "note_names":[
+      "d",
+      "a",
+      "f",
+      "b",
+      "e",
+      "g"
+    ]
+  },
+  "eller_4":{
+    "note_names":[
+      "d",
+      "a",
+      "f",
+      "b",
+      "e",
+      "g",
+      "c"
+    ]
+  },
+  "eno_1":{
+    "note_names":[
+      "a",
+      "c",
+      "e"
+    ]
+  },
+  "eno_10":{
+    "note_names":[
+      "d",
+      "fs",
+      "a"
+    ]
+  },
+  "eno_11":{
+    "note_names":[
+      "g",
+      "b",
+      "d"
+    ]
+  },
+  "eno_12":{
+    "note_names":[
+      "c",
+      "e",
+      "g"
+    ]
+  },
+  "eno_13":{
+    "note_names":[
+      "e",
+      "g",
+      "b"
+    ]
+  },
+  "eno_14":{
+    "note_names":[
+      "c",
+      "e",
+      "g"
+    ]
+  },
+  "eno_15":{
+    "note_names":[
+      "d",
+      "fs",
+      "a"
+    ]
+  },
+  "eno_16":{
+    "note_names":[
+      "g",
+      "b",
+      "d"
+    ]
+  },
+  "eno_2":{
+    "note_names":[
+      "a",
+      "d",
+      "fs"
+    ]
+  },
+  "eno_3":{
+    "note_names":[
+      "c",
+      "d",
+      "e",
+      "g"
+    ]
+  },
+  "eno_4":{
+    "note_names":[
+      "b",
+      "e",
+      "g"
+    ]
+  },
+  "eno_5":{
+    "note_names":[
+      "g",
+      "c",
+      "e"
+    ]
+  },
+  "eno_6":{
+    "note_names":[
+      "d",
+      "fs",
+      "a",
+      "cs"
+    ]
+  },
+  "eno_7":{
+    "note_names":[
+      "g",
+      "b",
+      "d"
+    ]
+  },
+  "eno_9":{
+    "note_names":[
+      "a",
+      "c",
+      "e"
+    ]
+  },
+  "fathertime_1":{
+    "note_names":[
+      "b",
+      "e",
+      "fs",
+      "gs"
+    ]
+  },
+  "foulds_1":{
+    "note_names":["fs", "gs", "as", "c", "cs", "ds", "e"]
+  },
+  "foulds_2":{
+    "note_names":["fs", "gs", "as", "c", "cs", "ds", "e"]
+  },
+  "foulds_3":{
+    "note_names":["fs", "gs", "as", "c", "cs", "ds", "e"]
+  },
+  "foulds_4":{
+    "note_names":["fs", "gs", "as", "c", "cs", "ds", "e"]
+  },
+  "foulds_5":{
+    "note_names":["fs", "gs", "as", "c", "cs", "ds", "e"]
+  },
+  "foulds_6":{
+    "note_names":["fs", "gs", "as", "c", "cs", "ds", "e"]
+  },
+  "gliere_1":{
+    "note_names":["a", "b", "cs", "d", "e", "fs"]
+  },
+  "grainger_1":{
+    "note_names":[
+      "c",
+      "ds",
+      "e",
+      "f",
+      "g",
+      "as"
+    ]
+  },
+  "grieg_1":{
+    "note_names":[
+      "c",
+      "e",
+      "g",
+      "a",
+      "b"
+    ]
+  },
+  "grieg_2":{
+    "note_names":[
+      "e",
+      "g",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  "grieg_3":{
+    "note_names":[
+      "b",
+      "e"
+    ]
+  },
+  "grieg_4":{
+    "note_names":[
+      "e",
+      "gs",
+      "b"
+    ]
+  },
+  "grieg_5":{
+    "note_names":[
+      "a",
+      "b",
+      "c",
+      "e",
+      "f",
+      "g"
+    ]
+  },
+  "grieg_6":{
+    "note_names":[
+      "b",
+      "e"
+    ]
+  },
+  "grieg_7":{
+    "note_names":[
+      "e",
+      "g",
+      "b"
+    ]
+  },
+  "hahn_1":{
+    "note_names":[
+      "e",
+      "fs",
+      "gs",
+      "a",
+      "b",
+      "cs",
+      "ds"
+    ]
+  },
+  "hahn_2":{
+    "note_names":[
+      "e",
+      "fs",
+      "gs",
+      "a",
+      "b",
+      "cs",
+      "ds"
+    ]
+  },
+  "handel_1":{
+    "note_names":[
+      "g",
+      "a",
+      "as",
+      "cs",
+      "e"
+    ]
+  },
+  "handel_2":{
+    "note_names":[
+      "c",
+      "cs",
+      "ds",
+      "e",
+      "fs",
+      "g",
+      "a",
+      "as"
+    ]
+  },
+  "handel_3":{
+    "note_names":[
+      "ds",
+      "f",
+      "fs",
+      "gs",
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  "handel_4":{
+    "note_names":[
+      "ds",
+      "f",
+      "fs",
+      "gs",
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  "handel_6":{
+    "note_names":[
+      "gs",
+      "b",
+      "cs",
+      "d",
+      "e",
+      "f"
+    ]
+  },
+  "handel_8":{
+    "note_names":[
+      "a",
+      "c",
+      "cs",
+      "ds",
+      "fs"
+    ]
+  },
+  "handel_9":{
+    "note_names":[
+      "g",
+      "a",
+      "as",
+      "cs",
+      "e",
+      "fs"
+    ]
+  },
+  "handel_10":{
+    "note_names":[
+      "as",
+      "cs",
+      "d",
+      "e",
+      "fs",
+      "g"
+    ]
+  },
+  "handel_11":{
+    "note_names":[
+      "f",
+      "fs",
+      "gs",
+      "b",
+      "d"
+    ]
+  },
+  "handel_12":{
+    "note_names":[
+      "f",
+      "gs",
+      "a",
+      "b",
+      "cs"
+    ]
+  },
+  "handel_13":{
+    "note_names":[
+      "g",
+      "a",
+      "b",
+      "cs",
+      "d",
+      "fs"
+    ]
+  },
+  "handel_14":{
+    "note_names":[
+      "b",
+      "c",
+      "d",
+      "ds",
+      "fs",
+      "g",
+      "a"
+    ]
+  },
+  "handel_15":{
+    "note_names":[
+      "a",
+      "c",
+      "cs",
+      "ds",
+      "fs"
+    ]
+  },
+  "handel_16":{
+    "note_names":[
+      "f",
+      "fs",
+      "gs",
+      "a",
+      "b",
+      "cs"
+    ]
+  },
+  "handel_17":{
+    "note_names":[
+      "f",
+      "fs",
+      "gs",
+      "a",
+      "b",
+      "cs"
+    ]
+  },
+  "head_1":{
+    "note_names":[
+      "c",
+      "ef",
+      "f",
+      "g",
+      "af",
+      "bf"
+    ]
+  },
+  "hohvaness_1":{
+    "note_names":[
+      "c",
+      "df",
+      "e",
+      "g",
+      "af",
+      "b"
+    ]
+  },
+  "holst_bassoon_1":{
+    "note_names":[
+      "f",
+      "a",
+      "bf",
+      "d",
+      "e"
+    ]
+  },
+  "holst_bassoon_2":{
+    "note_names":[
+      "a",
+      "bf",
+      "d",
+      "e",
+      "f"
+    ]
+  },
+  "holst_bassoon_3":{
+    "note_names":[
+      "a",
+      "bf",
+      "d",
+      "e",
+      "f"
+    ]
+  },
+  "holst_bassoon_4":{
+    "note_names":[
+      "as",
+      "d",
+      "e",
+      "a"
+    ]
+  },
+  "holst_cello_1":{
+    "note_names":[
+      "c",
+      "d",
+      "e"
+    ]
+  },
+  "holst_cello_2":{
+    "note_names":[
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g"
+    ]
+  },
+  "holst_cello_3":{
+    "note_names":[
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g"
+    ]
+  },
+  "holst_flute_1":{
+    "note_names":[
+      "a",
+      "bf",
+      "c",
+      "d",
+      "ds",
+      "g"
+    ]
+  },
+  "holst_flute_2":{
+    "note_names":[
+      "c",
+      "d",
+      "ef",
+      "f",
+      "g",
+      "a",
+      "bf"
+    ]
+  },
+  "holst_horns_1":{
+    "note_names":[
+      "f", "g", "bf", "c", "ef"
+    ]
+  },
+  "holst_horns_2":{
+    "note_names":[
+      "bf", "c", "d", "ef", "f"
+    ]
+  },
+  "holst_horns_3":{
+    "note_names":[
+      "bf", "c", "d", "ef"
+    ]
+  },
+  "holst_horns_4":{
+    "note_names":[
+      "f", "g", "a", "bf", "c", "d"
+    ]
+  },
+  "holst_horns_5":{
+    "note_names":[
+      "g", "bf", "c"
+    ]
+  },
+  "holst_horns_6":{
+    "note_names":[
+      "f", "g", "af", "bf", "c", "d"
+    ]
+  },
+  "holst_mars_1": {
+    "note_names": ["g", "d", "df"]
+  },
+  "holst_viola_1":{
+    "note_names":[
+      "f",
+      "g",
+      "a",
+      "bf",
+      "c",
+      "d",
+      "e"
+    ]
+  },
+  "holst_violin_1":{
+    "note_names":[
+      "g", "af", "bf", "c", "df", "ef", "f"
+    ]
+  },
+  "holst_violin_2":{
+    "note_names":[
+      "af", "bf", "c", "df", "ef", "e", "g"
+    ]
+  },
+  "holst_violin_3":{
+    "note_names":[
+      "c", "d", "e", "f", "g", "a", "b"
+    ]
+  },
+  "holst_voice_1":{
+    "note_names":[
+      "d",
+      "e",
+      "f",
+      "g",
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  "holst_voice_2":{
+    "note_names":[
+      "e",
+      "fs",
+      "gs",
+      "a",
+      "b",
+      "cs"
+    ]
+  },
+  "holst_voice_3":{
+    "note_names":[
+      "c",
+      "d",
+      "ef",
+      "g",
+      "a",
+      "b"
+    ]
+  },
+  "holst_voice_4":{
+    "note_names":[
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "g"
+    ]
+  },
+  "holst_voice_5":{
+    "note_names":[
+      "c",
+      "d",
+      "e",
+      "f",
+      "g"
+    ]
+  },
+  "holst_voice_6":{
+    "note_names":[
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g"
+    ]
+  },
+  "holst_voice_7":{
+    "note_names":[
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g"
+    ]
+  },
+  "honegger_1":{
+    "note_names":[
+      "c",
+      "fs",
+      "b",
+      "e",
+      "d"
+    ]
+  },
+  "honegger_2":{
+    "note_names":[
+      "g",
+      "a",
+      "b",
+      "d",
+      "e",
+      "fs"
+    ]
+  },
+  "honegger_3":{
+    "note_names":[
+      "c",
+      "fs",
+      "b",
+      "e",
+      "d",
+      "c"
+    ]
+  },
+  "koechlin_bassoon_1":{
+    "note_names":[
+      "d", "e", "f", "a", "b"
+    ]
+  },
+  "koechlin_bassoon_2":{
+    "note_names":[
+      "g", "b", "cs", "d", "e"
+    ]
+  },
+  "korean_1":{
+    "note_names":[
+      "cs",
+      "ds",
+      "e",
+      "fs",
+      "gs",
+      "a",
+      "b"
+    ]
+  },
+  "laraaji_1":{
+    "note_names":[
+      "d",
+      "e",
+      "f",
+      "g",
+      "a",
+      "bf",
+      "c"
+    ]
+  },
+  "laraaji_10":{
+    "note_names":[
+      "d",
+      "e",
+      "f",
+      "g",
+      "a",
+      "bf",
+      "c"
+    ]
+  },
+  "laraaji_2":{
+    "note_names":[
+      "d",
+      "e",
+      "f",
+      "g",
+      "a",
+      "bf",
+      "c"
+    ]
+  },
+  "laraaji_3":{
+    "note_names":[
+      "d",
+      "e",
+      "f",
+      "g",
+      "a",
+      "bf",
+      "c"
+    ]
+  },
+  "laraaji_5":{
+    "note_names":[
+      "d",
+      "e",
+      "f",
+      "g",
+      "a",
+      "bf",
+      "c"
+    ]
+  },
+  "laraaji_7":{
+    "note_names":[
+      "d",
+      "e",
+      "f",
+      "g",
+      "a",
+      "bf",
+      "c"
+    ]
+  },
+  "laraaji_8":{
+    "note_names":[
+      "d",
+      "e",
+      "f",
+      "g",
+      "a",
+      "bf",
+      "c"
+    ]
+  },
+  "laraaji_9":{
+    "note_names":[
+      "d",
+      "e",
+      "f",
+      "g",
+      "a",
+      "bf",
+      "c"
+    ]
+  },
+  "liszt_1":{
+    "note_names":[
+      "ef",
+      "bf",
+      "a",
+      "c",
+      "gf"
+    ]
+  },
+  "lyapunov_1":{
+    "note_names":[
+      "gs",
+      "as",
+      "b",
+      "cs",
+      "ds"
+    ]
+  },
+  "lyapunov_2":{
+    "note_names":[
+      "E",
+      "G#",
+      "B",
+      "D#"
+    ]
+  },
+  "lyapunov_3":{
+    "note_names":[
+      "c#",
+      "E",
+      "G#",
+      "B"
+    ]
+  },
+  "marble_1":{
+    "note_names":[
+      "fs",
+      "gs",
+      "as",
+      "cs",
+      "ds"
+    ]
+  },
+  "messiaen_piano_1":{
+    "note_names":[
+      "a",
+      "b",
+      "d",
+      "fs",
+      "gs"
+    ]
+  },
+  "messiaen_piano_2":{
+    "note_names":[
+      "b",
+      "c",
+      "d",
+      "e",
+      "fs",
+      "g",
+      "a"
+    ]
+  },
+  "messiaen_vocalise_1":{
+    "note_names":[
+      "cs",
+      "d",
+      "e",
+      "f",
+      "gs",
+      "a",
+      "as"
+    ]
+  },
+  "moz_1":{
+    "note_names":[
+      "ef",
+      "g",
+      "bf"
+    ]
+  },
+  "moz_2":{
+    "note_names":[
+      "c",
+      "ef",
+      "g"
+    ]
+  },
+  "moz_3":{
+    "note_names":[
+      "g",
+      "bf",
+      "ef"
+    ]
+  },
+  "moz_4":{
+    "note_names":[
+      "bf",
+      "d",
+      "f"
+    ]
+  },
+  "moz_5":{
+    "note_names":[
+      "bf",
+      "d",
+      "f"
+    ]
+  },
+  "moz_6":{
+    "note_names":[
+      "bf",
+      "d",
+      "f"
+    ]
+  },
+  "moz_7":{
+    "note_names":[
+      "f",
+      "g",
+      "af",
+      "bf",
+      "c",
+      "df",
+      "e"
+    ]
+  },
+  "moz_8":{
+    "note_names":[
+      "a",
+      "b",
+      "cs",
+      "d"
+    ]
+  },
+  "nasa_1":{
+    "note_names":[
+      "cs",
+      "e",
+      "fs",
+      "gs",
+      "as",
+      "b"
+    ]
+  },
+  "nelson_guitar_1":{
+    "note_names":[
+      "e",
+      "gs",
+      "as"
+    ]
+  },
+  "nelson_guitar_2":{
+    "note_names":[
+      "e",
+      "gs",
+      "as"
+    ]
+  },
+  "nelson_guitar_3":{
+    "note_names":[
+      "e",
+      "gs",
+      "as"
+    ]
+  },
+  "nelson_guitar_4":{
+    "note_names":[
+      "e",
+      "gs",
+      "as"
+    ]
+  },
+  "nelson_guitar_5":{
+    "note_names":[
+      "d",
+      "e",
+      "as",
+      "gs"
+    ]
+  },
+  "nelson_guitar_6":{
+    "note_names":[
+      "d",
+      "e",
+      "as",
+      "gs"
+    ]
+  },
+  "nelson_guitar_7":{
+    "note_names":[
+      "d",
+      "e",
+      "as",
+      "gs"
+    ]
+  },
+  "nelson_guitar_8":{
+    "note_names":[
+      "cs",
+      "ds",
+      "a",
+      "as",
+      "e",
+      "b"
+    ]
+  },
+  "nelson_guitar_9":{
+    "note_names":[
+      "cs",
+      "ds",
+      "a",
+      "e",
+      "b"
+    ]
+  },
+  "nelson_guitar_10":{
+    "note_names":[
+      "e",
+      "cs",
+      "ds",
+      "b",
+      "as"
+    ]
+  },
+  "nelson_guitar_11":{
+    "note_names":[
+      "a",
+      "b",
+      "cs",
+      "ds",
+      "g"
+    ]
+  },
+  "nelson_guitar_12":{
+    "note_names":[
+      "d",
+      "e",
+      "f",
+      "g",
+      "a",
+      "bf",
+      "cs"
+    ]
+  },
+  "nelson_guitar_13":{
+    "note_names":[
+      "g",
+      "cs",
+      "d",
+      "bf",
+      "a",
+      "f"
+    ]
+  },
+  "nelson_guitar_14":{
+    "note_names":[
+      "a",
+      "cs"
+    ]
+  },
+  "nelson_guitar_15":{
+    "note_names":[
+      "bf",
+      "f",
+      "d"
+    ]
+  },
+  "nelson_guitar_16":{
+    "note_names":[
+      "a",
+      "bf",
+      "d",
+      "e",
+      "f",
+      "g"
+    ]
+  },
+  "nelson_guitar_17":{
+    "note_names":[
+      "bf",
+      "a",
+      "g",
+      "d",
+      "fs",
+      "b"
+    ]
+  },
+  "nelson_guitar_18":{
+    "note_names":[
+      "e",
+      "a",
+      "fs",
+      "b"
+    ]
+  },
+  "nelson_guitar_19":{
+    "note_names":[
+      "e",
+      "a",
+      "g",
+      "b",
+      "c"
+    ]
+  },
+  "nelson_guitar_20":{
+    "note_names":[
+      "e",
+      "a",
+      "fs",
+      "c",
+      "b",
+      "g"
+    ]
+  },
+  "overtone_1":{
+    "note_names":[
+      "bf",
+      "d",
+      "f",
+      "af"
+    ]
+  },
+  "palmgren_piano_1":{
+    "note_names":[
+      "gs",
+      "cs",
+      "ds",
+      "as"
+    ]
+  },
+  "poulenc_1":{
+    "note_names":[
+      "d",
+      "bf",
+      "ef",
+      "fs"
+    ]
+  },
+  "poulenc_2":{
+    "note_names":[
+      "ef",
+      "af",
+      "cf",
+      "g"
+    ]
+  },
+  "poulenc_3":{
+    "note_names":[
+      "g",
+      "a",
+      "b",
+      "d",
+      "e",
+      "fs"
+    ]
+  },
+  "poulenc_4":{
+    "note_names":[
+      "g",
+      "f",
+      "d",
+      "b",
+      "c",
+      "e",
+      "a"
+    ]
+  },
+  "poulenc_5":{
+    "note_names":[
+      "g",
+      "a",
+      "fs",
+      "e",
+      "d"
+    ]
+  },
+  "poulenc_6":{
+    "note_names":[
+      "c",
+      "d",
+      "fs",
+      "g",
+      "e"
+    ]
+  },
+  "poulenc_7":{
+    "note_names":[
+      "g",
+      "c",
+      "d",
+      "b"
+    ]
+  },
+  "poulenc_8":{
+    "note_names":[
+      "g",
+      "bf",
+      "f"
+    ]
+  },
+  "ravel_1":{
+    "note_names":[
+      "f",
+      "a",
+      "c"
+    ]
+  },
+  "reich_1":{
+    "note_names":[
+      "b",
+      "cs",
+      "d",
+      "e",
+      "fs",
+      "g",
+      "as"
+    ]
+  },
+  "rimsky_1":{
+    "note_names":[
+      "d",
+      "e",
+      "f",
+      "g",
+      "a"
+    ]
+  },
+  "rimsky_2":{
+    "note_names":[
+      "f",
+      "e",
+      "d"
+    ]
+  },
+  "rossini_1":{
+    "note_names":[
+      "ds",
+      "e",
+      "g",
+      "b"
+    ]
+  },
+  "roussel_1":{
+    "note_names":[
+      "d",
+      "g",
+      "b",
+      "a",
+      "e",
+      "f",
+      "c"
+    ]
+  },
+  "stravinsky_bassoon_1":{
+    "note_names":[
+      "e",
+      "g",
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  "stravinsky_bassoon_2":{
+    "note_names":[
+      "e",
+      "g",
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  "stravinsky_bassoon_4":{
+    "note_names":[
+      "e",
+      "g",
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  "thomas_1":{
+    "note_names":[
+      "f",
+      "e"
+    ]
+  },
+  "thomas_10":{
+    "note_names":[
+      "a",
+      "c",
+      "d",
+      "b"
+    ]
+  },
+  "thomas_11":{
+    "note_names":[
+      "b",
+      "e",
+      "f",
+      "c"
+    ]
+  },
+  "thomas_12":{
+    "note_names":[
+      "b",
+      "e",
+      "f",
+      "c"
+    ]
+  },
+  "thomas_13":{
+    "note_names":[
+      "b",
+      "e",
+      "f",
+      "c"
+    ]
+  },
+  "thomas_14":{
+    "note_names":[
+      "cs",
+      "d",
+      "e",
+      "fs",
+      "gs",
+      "a",
+      "b"
+    ]
+  },
+  "thomas_15":{
+    "note_names":[
+      "b",
+      "e",
+      "f",
+      "c"
+    ]
+  },
+  "thomas_17":{
+    "note_names":[
+      "b",
+      "e",
+      "f",
+      "c",
+      "a",
+      "g"
+    ]
+  },
+  "thomas_18":{
+    "note_names":[
+      "f",
+      "b",
+      "c",
+      "e"
+    ]
+  },
+  "thomas_19":{
+    "note_names":[
+      "a",
+      "c",
+      "d",
+      "b"
+    ]
+  },
+  "thomas_2":{
+    "note_names":[
+      "a",
+      "c",
+      "d",
+      "b"
+    ]
+  },
+  "thomas_20":{
+    "note_names":[
+      "b",
+      "e",
+      "f",
+      "c"
+    ]
+  },
+  "thomas_21":{
+    "note_names":[
+      "a",
+      "bf",
+      "cs",
+      "d",
+      "e",
+      "fs"
+    ]
+  },
+  "thomas_22":{
+    "note_names":[
+      "b",
+      "c",
+      "f",
+      "e"
+    ]
+  },
+  "thomas_3":{
+    "note_names":[
+      "b",
+      "e",
+      "f",
+      "c"
+    ]
+  },
+  "thomas_4":{
+    "note_names":[
+      "b",
+      "e",
+      "f",
+      "c"
+    ]
+  },
+  "thomas_5":{
+    "note_names":[
+      "d",
+      "f",
+      "e"
+    ]
+  },
+  "thomas_6":{
+    "note_names":[
+      "cs",
+      "d",
+      "e",
+      "fs",
+      "gs",
+      "a",
+      "b"
+    ]
+  },
+  "thomas_7":{
+    "note_names":[
+      "e",
+      "f"
+    ]
+  },
+  "thomas_8":{
+    "note_names":[
+      "a",
+      "bf",
+      "cs",
+      "d",
+      "e",
+      "fs"
+    ]
+  },
+  "thomas_9":{
+    "note_names":[
+      "e",
+      "f"
+    ]
+  },
+  "unarius_1":{
+    "note_names":[
+      "cs",
+      "ds",
+      "fs",
+      "gs",
+      "as",
+      "b"
+    ]
+  },
+  "UyirumNeeye_1": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_2": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_3": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_4": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_5": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_6": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_7": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_8": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_9": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_12": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_13": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_14": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_15": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_16": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_17": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_18": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_19": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_20": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_21": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_22": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_23": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_24": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_25": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_26": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_27": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_28": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_29": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_30": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"UyirumNeeye_31": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+  "villalobos_1":{
+    "note_names":[
+      "a",
+      "c",
+      "e",
+      "g",
+      "b"
+    ]
+  },
+  "villanueva_1":{
+    "note_names":[
+      "bf",
+      "c",
+      "cs",
+      "e",
+      "g",
+      "a"
+    ]
+  },
+  "villanueva_2":{
+    "note_names":[
+      "bf",
+      "c",
+      "d",
+      "f",
+      "af"
+    ]
+  },
+  "vox_1":{
+    "note_names":[
+      "b"
+    ]
+  },
+  "wayama_1":{
+    "note_names":[
+      "b",
+      "a",
+      "e",
+      "fs",
+      "cs"
+    ]
+  },
+  "wayama_2":{
+    "note_names":[
+      "cs",
+      "gs",
+      "b",
+      "ds",
+      "as"
+    ]
+  },
+  "whitacre_1":{
+    "note_names":[
+      "cs",
+      "e",
+      "gs",
+      "ds",
+      "b"
+    ]
+  },
+  "wolves_1":{
+    "note_names":[
+      "a",
+      "cs",
+      "e"
+    ]
+  },
+  "zerkel_1":{
+    "note_names":[
+      "b",
+      "cs",
+      "d",
+      "e",
+      "g"
+    ]
+  },
+  "zerkel_2":{
+    "note_names":[
+      "ds",
+      "f",
+      "fs",
+      "gs"
+    ]
   }
 }
