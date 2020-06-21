@@ -401,7 +401,7 @@
       "b"
     ]
   },
-  "bozza_1":{
+  "bozza_clarinet_1":{
     "note_names":[
       "e",
       "fs",
@@ -559,17 +559,17 @@
       "c"
     ]
   },
-  "cowell_1":{
+  "cowell_piano_1":{
     "note_names":[
       "fs", "as", "cs", "ds", "gs"
     ]
   },
-  "cowell_2":{
+  "cowell_piano_2":{
     "note_names":[
       "fs", "as", "cs", "ds", "gs"
     ]
   },
-  "cowell_3":{
+  "cowell_piano_3":{
     "note_names":[
       "fs", "as", "cs", "ds", "gs"
     ]
@@ -1102,7 +1102,7 @@
   "foulds_6":{
     "note_names":["fs", "gs", "as", "c", "cs", "ds", "e"]
   },
-  "gliere_1":{
+  "gliere_viola_1":{
     "note_names":["a", "b", "cs", "d", "e", "fs"]
   },
   "grainger_1":{
@@ -1169,7 +1169,7 @@
       "e"
     ]
   },
-  "hahn_1":{
+  "hahn_piano_1":{
     "note_names":[
       "e",
       "fs",
@@ -1180,7 +1180,7 @@
       "ds"
     ]
   },
-  "hahn_2":{
+  "hahn_piano_2":{
     "note_names":[
       "e",
       "fs",
@@ -1725,7 +1725,7 @@
       "gf"
     ]
   },
-  "lyapunov_1":{
+  "lyapunov_piano_1":{
     "note_names":[
       "gs",
       "as",
@@ -1734,7 +1734,7 @@
       "ds"
     ]
   },
-  "lyapunov_2":{
+  "lyapunov_piano_2":{
     "note_names":[
       "E",
       "G#",
@@ -1742,7 +1742,7 @@
       "D#"
     ]
   },
-  "lyapunov_3":{
+  "lyapunov_piano_3":{
     "note_names":[
       "c#",
       "E",
@@ -2117,7 +2117,7 @@
       "f"
     ]
   },
-  "ravel_1":{
+  "ravel_strings_1":{
     "note_names":[
       "f",
       "a",
@@ -2151,7 +2151,7 @@
       "d"
     ]
   },
-  "rossini_1":{
+  "rossini_cello_1":{
     "note_names":[
       "ds",
       "e",
@@ -2411,7 +2411,7 @@
 "UyirumNeeye_29": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
 "UyirumNeeye_30": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
 "UyirumNeeye_31": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
-  "villalobos_1":{
+  "villalobos_strings_1":{
     "note_names":[
       "a",
       "c",
@@ -2462,7 +2462,7 @@
       "as"
     ]
   },
-  "whitacre_1":{
+  "whitacre_choir_1":{
     "note_names":[
       "cs",
       "e",
@@ -2471,7 +2471,7 @@
       "b"
     ]
   },
-  "wolves_1":{
+  "wolves_guitar_1":{
     "note_names":[
       "a",
       "cs",
