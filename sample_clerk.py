@@ -75,6 +75,36 @@ def transpose_pitch_classes(pitch_classes, semitones):
 		transposed_pitch_classes.append(note)
 	return transposed_pitch_classes
 
+def IntersecOfSets(folder1, folder2, folder3):  
+    arr1 = os.listdir(folder1) 
+    arr2 = os.listdir(folder2)  
+    arr3 = os.listdir(folder3)  
+     
+    # Converting the arrays into sets  
+    s1 = set(arr1)  
+    s2 = set(arr2)  
+    s3 = set(arr3)  
+       
+    # Calculates intersection of   
+    # sets on s1 and s2  
+    set1 = s1.intersection(s2)         #[80, 20, 100]  
+       
+    # Calculates intersection of sets  
+    # on set1 and s3  
+    result_set = set1.intersection(s3)  
+       
+    # Converts resulting set to list  
+    final_list = list(result_set)  
+    pprint.pprint(sorted(final_list))  
+
+def find_samples_in_common(folder1, folder2): 
+    samples_in_common = [] 
+    for key1 in os.listdir(folder1): 
+        for key2 in os.listdir(folder2): 
+            if (key1 == key2): 
+                samples_in_common.append(key1) 
+    pprint.pprint(sorted(samples_in_common)) 
+
 
 if __name__ == "__main__":
 
