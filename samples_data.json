@@ -412,6 +412,21 @@
       "d"
     ]
   },
+  "bunin_flute_1":{
+    "note_names": [
+    	"e", "b", "d", "g", "fs"
+    ]
+  },
+  "bunin_flute_2":{
+    "note_names": [
+    	"e", "fs", "g", "d", "b"
+    ]
+  },
+  "bunin_flute_3":{
+    "note_names": [
+    	"e", "fs", "g", "d", "b", "c", "a"
+    ]
+  },
   "busoni_cello_1":{
     "note_names": ["f", "g", "a", "bf", "d", "e"]
   },
@@ -907,6 +922,63 @@
       "ds",
       "g",
       "as"
+    ]
+  },
+  "desplat_strings_1":{
+    "note_names":[
+    	"g",
+    	"as",
+    	"cs",
+    	"ds"
+    ]
+  },
+  "desplat_strings_2":{
+    "note_names":[
+    	"as",
+    	"ds",
+    	"g",
+    	"gs"
+    ]
+  },
+  "desplat_strings_3":{
+    "note_names":[
+    	"ds",
+    	"fs",
+    	"as",
+    	"cs"
+    ]
+  },
+  "desplat_strings_4":{
+    "note_names":[
+    	"fs",
+    	"as",
+    	"cs"
+    ]
+  },
+  "desplat_strings_5":{
+    "note_names":[
+    	"ds",
+    	"cs",
+    	"f",
+    	"fs",
+    	"as"
+    ]
+  },
+  "desplat_strings_6":{
+    "note_names":[
+    	"b",
+    	"ds",
+    	"as",
+    	"fs",
+    	"gs"
+    ]
+  },
+  "desplat_strings_7":{
+    "note_names":[
+    	"e",
+    	"gs",
+    	"b",
+    	"as"
     ]
   },
   "dett_piano_1":{
@@ -1777,6 +1849,17 @@
       "fs",
       "g",
       "a"
+    ]
+  },
+  "messiaen_strings_1":{
+    "note_names":[
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "a",
+      "b"
     ]
   },
   "messiaen_vocalise_1":{
