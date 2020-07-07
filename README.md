@@ -1,6 +1,6 @@
 # Sample Laboratory
-## A set of tools for organizing samples by scale using
-## Inspired by [SCALE NETWORKS AND DEBUSSY by Dmitri Tymoczko](https://dmitri.mycpanel.princeton.edu/files/publications/debussy.pdf)
+## A set of tools for organizing samples by scale
+#### Inspired by [SCALE NETWORKS AND DEBUSSY by Dmitri Tymoczko](https://dmitri.mycpanel.princeton.edu/files/publications/debussy.pdf)
 
 creates folders for each pressing scale:
 
