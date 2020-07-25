@@ -433,6 +433,12 @@
   "busoni_cello_2":{
     "note_names": ["g", "bf", "c", "d", "f"]
   },
+  "carter_wind_1":{
+    "note_names": ["d", "fs", "a"]
+  },
+  "carter_wind_2":{
+    "note_names": ["g"]
+  },
   "catalani_1":{
     "note_names": ["cs", "g", "bf", "ef"]
   },
@@ -468,6 +474,30 @@
       "g",
       "a"
     ]
+  },
+  "chavez_oboe_1":{
+    "note_names":["c", "d", "e", "f", "g", "a", "bf"]
+  },
+  "chavez_oboe_2":{
+    "note_names":["c", "d", "e", "f", "g", "a", "bf"]
+  },
+  "chavez_oboe_3":{
+    "note_names":["c", "d", "e", "f", "g", "a", "bf"]
+  },
+  "chavez_oboe_4":{
+    "note_names":["a", "bf", "d", "e"]
+  },
+  "chavez_oboe_5":{
+    "note_names":["c", "d", "e", "f", "g", "a", "b"]
+  },
+  "chavez_oboe_6":{
+    "note_names":["c", "d", "e", "f", "g", "a", "b"]
+  },
+  "chavez_oboe_7":{
+    "note_names":["c", "d", "e", "f", "g", "a", "bf"]
+  },
+  "chavez_oboe_8":{
+    "note_names":["a", "bf", "d", "e"]
   },
   "chen_violin_1":{
     "note_names":[
@@ -2200,6 +2230,12 @@
       "f"
     ]
   },
+  "poulenc_flute_1":{
+    "note_names":["c", "d", "ef", "f", "g", "af", "bf"]
+  },
+  "poulenc_flute_2":{
+    "note_names":["g", "af", "bf", "c", "df", "ef", "f"]
+  },
   "ravel_strings_1":{
     "note_names":[
       "f",
@@ -2251,6 +2287,16 @@
       "e",
       "f",
       "c"
+    ]
+  },
+  "still_piano_1":{
+    "note_names":[
+      "g",
+      "bf",
+      "c",
+      "d",
+      "e",
+      "f"
     ]
   },
   "stravinsky_bassoon_1":{
@@ -2494,6 +2540,12 @@
 "UyirumNeeye_29": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
 "UyirumNeeye_30": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
 "UyirumNeeye_31": {"note_names": ["ef", "f", "g", "af", "bf", "c", "d"]},
+"vaughanvilliams_piano_1":{
+    "note_names":["b", "cs", "ds", "e", "fs", "gs", "as"]
+  },
+"vaughanvilliams_strings_1":{
+    "note_names":["b", "ds", "fs"]
+  },
   "villalobos_strings_1":{
     "note_names":[
       "a",

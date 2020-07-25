@@ -116,7 +116,7 @@ if __name__ == "__main__":
 		for scale_name in scales_dict:
 			if len(samples_dict[sample_name]['pitch_classes']) < 1:
 				print("leaving", sample_name, "alone")
-			if len(samples_dict[sample_name]['pitch_classes']) > 1:
+			if len(samples_dict[sample_name]['pitch_classes']) >= 1:
 				if is_sample_subset_of_scale(scales_dict[scale_name]['pitch_classes'], samples_dict[sample_name]['pitch_classes']):
 					print("creating a shortcut to ", sample_path, "in ", "scales_dir/"+scale_name)
 					os.symlink(sample_path, "scales_dir/"+scale_name+"/"+sample_name+".wav")
@@ -126,7 +126,7 @@ if __name__ == "__main__":
 			for scale_name in scales_dict:
 				if len(samples_dict[sample_name]['pitch_classes']) < 1:
 					print("leaving", sample_name, "alone")
-				if len(samples_dict[sample_name]['pitch_classes']) > 1:
+				if len(samples_dict[sample_name]['pitch_classes']) >= 1:
 					if is_sample_subset_of_scale(scales_dict[scale_name]['pitch_classes'], transposed_pitch_classes):
 						print("creating a shortcut to ", transposed_sample, "in ", "scales_dir/"+scale_name)
 						os.symlink(transposed_sample, "scales_dir/"+scale_name+"/"+sample_name+"_transposed_by"+str(transposition)+".wav") 

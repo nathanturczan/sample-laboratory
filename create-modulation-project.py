@@ -1,11 +1,6 @@
 ###############################################################################
 # creating project folder
-# a script that organizes audio samples into scale folders
 # Nathan Turczan
-
-
-# function for mapping note names to numbers [a, bf, c] = [9, 10, 0]
-# this function taken from pretty midi and modified, removing the octave capture group
 
 
 def IntersecOfSets(folder1, folder2, folder3):  
@@ -65,7 +60,7 @@ if __name__ == "__main__":
 				shutil.copyfile(path+'/scales_dir/'+scale_folder_1+'/'+key1, path+'/'+sys.argv[1]+'/'+shared_samples+'/'+key1)
 			if (key1 != key2):
 				shutil.copyfile(path+'/scales_dir/'+scale_folder_1+'/'+key1, path+'/'+sys.argv[1]+'/'+scale_folder_1+'/'+key1)
-				shutil.copyfile(path+'/scales_dir/'+scale_folder_2+'/'+key2, path+'/'+sys.argv[1]+'/'+scale_folder_2+'/'+key1)
+				shutil.copyfile(path+'/scales_dir/'+scale_folder_2+'/'+key2, path+'/'+sys.argv[1]+'/'+scale_folder_2+'/'+key2)
 		#if filename.endswith(".wav"): 
 		# beat = AudioSegment.from_file(filename, "wav") 
 			# backwards = beat.reverse() 
